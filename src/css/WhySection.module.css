@@ -1,0 +1,101 @@
+.whySection {
+    background-color: #eef4fd;
+    align-self: stretch;
+    display: flex;
+    margin-top: 45px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 74px 60px;
+}
+
+@media (max-width: 991px) {
+    .whySection {
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
+
+.whyContent {
+    display: flex;
+    margin-bottom: 90px;
+    width: 100%;
+    max-width: 1394px;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .whyContent {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+.whyTitle {
+    color: #050c26;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font: 600 50px/167.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .whyTitle {
+        max-width: 100%;
+        font-size: 40px;
+    }
+}
+
+.whySubtitle {
+    color: #1d1d1d;
+    font: 500 20px Poppins, sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .whySubtitle {
+        max-width: 100%;
+    }
+}
+
+.whyReasons {
+    align-self: stretch;
+    display: flex;
+    margin-top: 185px;
+    gap: 20px;
+    font-size: 19px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 0.38Px;
+    line-height: 156.5%;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .whyReasons {
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+}
+
+.reasonItem {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.reasonTitle {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.reasonImage {
+    aspect-ratio: 1.2;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    margin-top: 20px;
+}

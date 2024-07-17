@@ -1,0 +1,132 @@
+.contributeSection {
+    color: #000;
+    font-family: Jost, sans-serif;
+    text-transform: capitalize;
+    margin-top: 318px;
+    width: 80%;
+}
+
+@media (max-width: 991px) {
+    .contributeSection {
+        max-width: 100%;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+}
+
+.contributeContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+    width: 100%;
+    max-width: 1394px;
+}
+
+@media (max-width: 991px) {
+    .contributeContent {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+.contributeTitle {
+    color: #050c26;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font: 600 50px/167.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .contributeTitle {
+        max-width: 100%;
+        font-size: 40px;
+    }
+}
+
+.contributeSubtitle {
+    color: #8a8a8a;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font: 500 20px Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .contributeSubtitle {
+        max-width: 100%;
+    }
+}
+
+.contributeItems {
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 991px) {
+    .contributeItems {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.contributeItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+    .contributeItem {
+        width: 100%;
+    }
+}
+
+.contributeItemContent {
+    border-radius: 14px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 38px;
+    color: #0438be;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.76Px;
+    line-height: 135%;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .contributeItemContent {
+        max-width: 100%;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+}
+
+.contributeItemTitle {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
+
+.contributeItemImage {
+    object-fit: auto;
+    object-position: center;
+    align-self: center;
+    width: 80%;
+    padding: 20px 20px;
+    overflow: hidden;
+}
+
+@media (max-width: 991px) {
+    .contributeItemImage {
+        margin: 0 10px;
+    }
+}

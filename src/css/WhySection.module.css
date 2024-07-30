@@ -30,6 +30,7 @@
     .whyContent {
         max-width: 100%;
         margin-bottom: 40px;
+        padding-top: 15px;
     }
 }
 
@@ -44,7 +45,7 @@
 @media (max-width: 991px) {
     .whyTitle {
         max-width: 100%;
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
@@ -78,6 +79,7 @@
         max-width: 100%;
         flex-wrap: wrap;
         margin-top: 40px;
+        justify-content: center;
     }
 }
 
@@ -85,6 +87,12 @@
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
+}
+
+@media (max-width: 991px) {
+    .reasonItem {
+        width: 70%;
+    }
 }
 
 .reasonTitle {

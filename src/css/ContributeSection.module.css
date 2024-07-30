@@ -8,6 +8,7 @@
 
 @media (max-width: 991px) {
     .contributeSection {
+        width: 100%;
         max-width: 100%;
         margin-top: 40px;
         font-size: 40px;
@@ -42,6 +43,7 @@
     .contributeTitle {
         max-width: 100%;
         font-size: 40px;
+        text-align: center;
     }
 }
 
@@ -54,7 +56,9 @@
 
 @media (max-width: 991px) {
     .contributeSubtitle {
-        max-width: 100%;
+        width: 80%;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -66,8 +70,11 @@
 
 @media (max-width: 991px) {
     .contributeItems {
+        align-self: center;
         flex-direction: column;
+        justify-content: center;
         align-items: stretch;
+        width: 90%;
         gap: 0px;
     }
 }
@@ -82,7 +89,8 @@
 
 @media (max-width: 991px) {
     .contributeItem {
-        width: 100%;
+        max-width: 100%;
+        width: auto;
     }
 }
 
@@ -106,7 +114,6 @@
     .contributeItemContent {
         max-width: 100%;
         margin-top: 30px;
-        padding: 0 20px;
     }
 }
 
@@ -128,5 +135,6 @@
 @media (max-width: 991px) {
     .contributeItemImage {
         margin: 0 10px;
+        width: 60%;
     }
 }

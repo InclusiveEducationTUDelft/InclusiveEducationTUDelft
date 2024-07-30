@@ -12,6 +12,7 @@
     .howSection {
         margin-top: 40px;
         font-size: 40px;
+        width: 100%;
     }
 }
 
@@ -24,8 +25,8 @@
 
 @media (max-width: 991px) {
     .howTitle {
-        max-width: 100%;
-        font-size: 40px;
+        font-size: 30px;
+        padding: 0 20px;
     }
 }
 
@@ -39,7 +40,8 @@
 @media (max-width: 991px) {
     .howSubtitle {
         max-width: 100%;
-        margin-top: 40px;
+        margin-top: 15px;
+        padding: 0 20px;
     }
 }
 
@@ -57,7 +59,12 @@
 
 @media (max-width: 991px) {
     .howCategories {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-self: center;
+        margin-top: 15px;
+        line-height: 80%;
+        width: 90%;
     }
 }
 
@@ -77,6 +84,18 @@
     flex-basis: auto;
 }
 
+@media (max-width: 991px) {
+    .categoryItem {
+        font-size: 13px;
+        word-break: break-word;
+    }
+
+    .categoryItemBlack {
+        font-size: 13px;
+        word-break: break-word;
+    }
+}
+
 .howImage {
     aspect-ratio: 3.23;
     object-fit: auto;
@@ -88,7 +107,7 @@
 
 @media (max-width: 991px) {
     .howImage {
-        max-width: 100%;
-        margin-top: 40px;
+        width: 100%;
+        margin-top: 20px;
     }
 }

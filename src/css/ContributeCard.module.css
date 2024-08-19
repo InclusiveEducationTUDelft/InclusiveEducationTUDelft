@@ -1,0 +1,62 @@
+.contributeCard {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.cardTitle {
+    font-size: 2.375rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.cardContainer {
+    background-color: #fff;
+
+    height: 280px;
+    padding: 1% 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cardContent {
+    height: 100%;
+
+    font-size: 1.188rem;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+
+.cardIcon {
+    width: 10rem;
+    height: auto;
+}
+
+.actionBtn {
+    background-color: #ffc501;
+    border: none;
+    border-radius: 218px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .contributeCard {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

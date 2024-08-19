@@ -1,0 +1,50 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    flex: 1;
+}
+
+.tipOfDay {
+    font-size: 2.5rem;
+    font-style: italic;
+    color: #050c26;
+    margin-bottom: 1rem;
+}
+
+.tipText {
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: #4e4949;
+    line-height: 1.2;
+}
+
+.heroImage {
+    width: 46%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 991px) {
+    .hero {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .tipText {
+        font-size: 2.5rem;
+    }
+
+    .heroImage {
+        width: 60%;
+        margin-top: 2rem;
+    }
+}

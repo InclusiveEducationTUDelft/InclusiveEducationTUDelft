@@ -1,0 +1,50 @@
+.tipCard {
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.tipNumber {
+    font-size: 2.375rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.tipContainer {
+    background-color: #fff5d3;
+
+    height: 200px;
+    padding: 2rem 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.tipContent {
+    font-size: 1.188rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.readMoreBtn {
+    background-color: #ffc501;
+    border: none;
+    border-radius: 218px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+@media (max-width: 991px) {
+    .tipCard {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,38 @@
+.contribute {
+    background-color: #fff5d3;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.sectionTitle {
+    color: #0438be;
+    font-size: 3.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.sectionDescription {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+@media (max-width: 991px) {
+    .contribute {
+        padding: 3rem 1rem;
+    }
+
+    .sectionTitle {
+        font-size: 2.5rem;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

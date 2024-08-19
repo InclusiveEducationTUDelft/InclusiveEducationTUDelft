@@ -4,16 +4,14 @@ import styles from '../css/Header.module.css';
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.headerContent}>
-        <div className={styles.logo}>Inclusive Education</div>
-        <nav className={styles.navigation}>
-          <a href="#" className={styles.navItem}>Home</a>
-          <a href="#" className={styles.navItem}>About us</a>
-          <a href="#" className={styles.navItem}>Team</a>
-          <a href="#" className={styles.navItem}>Funding</a>
-          <button className={styles.contributeButton}>Contribute</button>
-        </nav>
-      </div>
+      <h1 className={styles.logo}>Inclusive STEM Education</h1>
+      <nav className={styles.navigation}>
+        <a href="#about" className={styles.navLink}>About Us</a>
+        <a href="#why" className={styles.navLink}>Why Inclusive STEM Education</a>
+        <a href="#tips" className={styles.navLink}>Tips & Tools</a>
+        <a href="#examples" className={styles.navLink}>Examples</a>
+        <a href="#contribute" className={styles.navLink}>Contribute</a>
+      </nav>
     </header>
   );
 };

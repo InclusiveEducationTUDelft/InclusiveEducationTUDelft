@@ -1,0 +1,50 @@
+.inspiringExamples {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+    padding: 4rem 2rem;
+}
+
+.sectionTitle {
+    color: #0438be;
+    font-size: 3.125rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.exampleContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.exploreMoreBtn {
+    background-color: #ffc501;
+    border: none;
+    border-radius: 218px;
+    padding: 1rem 1.5rem;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+    
+    margin-left: auto;
+}
+
+@media (max-width: 991px) {
+    .inspiringExamples {
+        padding: 3rem 1rem;
+    }
+
+    .sectionTitle {
+        font-size: 2.5rem;
+    }
+
+    .exampleContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

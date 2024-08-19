@@ -1,0 +1,61 @@
+.infoCard {
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cardTitle {
+    font-size: 2.375rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.infoContent {
+    background-color: #fff;
+    height: 300px;
+    padding: 2rem 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cardContent {
+    text-align: left;
+    font-size: 1.188rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.readMoreBtn {
+    background-color: #ffc501;
+    border: none;
+    border-radius: 218px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    
+    align-self: flex-end;
+}
+
+.cardIcon {
+    width: 13rem;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .infoCard {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

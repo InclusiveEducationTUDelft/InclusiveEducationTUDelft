@@ -1,24 +1,25 @@
 import React from 'react';
-import styles from '../css/Main.module.css';
 import Header from '../components/Header';
-import ContactSection from '../components/ContactSection';
-import ContributeSection from '../components/ContributeSection';
+import Contribute from '../components/Contribute';
 import Footer from '../components/Footer';
-import HeroSection from '../components/HeroSection';
-import HowSection from '../components/HowSection';
-import WhySection from '../components/WhySection';
+import Hero from '../components/Hero';
+import InclusiveTips from '../components/InclusiveTips';
+import InspiringExamples from '../components/InspiringExamples';
+import WhyInclusive from '../components/WhyInclusive';
 
 const LandingPage: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <>
       <Header />
-      <HeroSection />
-      <WhySection />
-      <HowSection />
-      <ContributeSection />
-      <ContactSection />
+      <main>
+        <Hero />
+        <WhyInclusive />
+        <InclusiveTips />
+        <InspiringExamples />
+        <Contribute />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

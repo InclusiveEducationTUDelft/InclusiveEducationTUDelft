@@ -4,7 +4,7 @@ import styles from '../css/Header.module.css';
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <h1 className={styles.logo}>Inclusive STEM Education</h1>
+      <a href="/" className={styles.logo}>Inclusive STEM Education</a>
       <nav className={styles.navigation}>
         <a href="#about" className={styles.navLink}>About Us</a>
         <a href="#why" className={styles.navLink}>Why Inclusive STEM Education</a>

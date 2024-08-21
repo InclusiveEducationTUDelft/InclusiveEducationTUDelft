@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <a href="#about" className={styles.navLink}>About Us</a>
         <a href="#why" className={styles.navLink}>Why Inclusive STEM Education</a>
         <a href="#tips" className={styles.navLink}>Tips & Tools</a>
-        <a href="#examples" className={styles.navLink}>Examples</a>
+        <a href="#example" className={styles.navLink}>Examples</a>
         <a href="#contribute" className={styles.navLink}>Contribute</a>
       </nav>
     </header>

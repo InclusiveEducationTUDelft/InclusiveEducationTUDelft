@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/InspiringExamples.module.css';
+import styles from './InspiringExamples.module.css';
 import ExampleCard from './ExampleCard';
 
 const examples = [

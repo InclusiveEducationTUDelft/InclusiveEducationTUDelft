@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/ContributeCard.module.css';
+import styles from './ContributeCard.module.css';
 
 interface ContributeCardProps {
     title: string;

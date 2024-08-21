@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/Contribute.module.css';
+import styles from './Contribute.module.css';
 import ContributeCard from './ContributeCard';
 
 const contributeOptions = [

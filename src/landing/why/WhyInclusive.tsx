@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/WhyInclusive.module.css';
+import styles from './WhyInclusive.module.css';
 import InfoCard from './InfoCard';
 
 const infoCards = [

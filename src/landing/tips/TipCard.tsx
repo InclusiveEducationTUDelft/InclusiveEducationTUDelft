@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/TipCard.module.css';
+import styles from './TipCard.module.css';
 
 interface TipCardProps {
     number: number;

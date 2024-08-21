@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/InclusiveTips.module.css';
+import styles from './InclusiveTips.module.css';
 import TipCard from './TipCard';
 
 const tips = [

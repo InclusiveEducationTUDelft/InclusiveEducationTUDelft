@@ -6,9 +6,10 @@ interface ContributeCardProps {
     content: string;
     icon: string;
     buttonText: string;
+    href: string;
 }
 
-const ContributeCard: React.FC<ContributeCardProps> = ({ title, content, icon, buttonText }) => {
+const ContributeCard: React.FC<ContributeCardProps> = ({ title, content, icon, buttonText, href }) => {
     return (
         <div className={styles.contributeCard}>
             <h3 className={styles.cardTitle}>{title}</h3>
@@ -16,7 +17,9 @@ const ContributeCard: React.FC<ContributeCardProps> = ({ title, content, icon, b
                 <p className={styles.cardContent}>{content}</p>
                 <div className={styles.cardFooter}>
                     <img src={icon} alt="" className={styles.cardIcon} />
-                    <button className={styles.actionBtn}>{buttonText}</button>
+                    <a href={href} target="_blank" rel="noopener noreferrer">
+                        <button className={styles.actionBtn}>{buttonText}</button>
+                    </a>
                 </div>
             </div>
         </div>

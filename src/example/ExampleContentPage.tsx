@@ -1,52 +1,44 @@
-import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { marked } from 'marked';
-import Header from "../misc/header/Header";
 import Footer from "../misc/footer/Footer";
+import Header from "../misc/header/Header";
+import { useEffect, useState } from "react";
+import { fetchAndProcessMarkdown } from "./ExamplePage";
 
 function ExampleContentPage() {
-    const { file_path } = useParams<{ file_path: string }>();
+    const [isLoading, setLoading] = useState(true);
     const [content, setContent] = useState<string>('');
+    const { file_path } = useParams<{ file_path: string }>();
 
     useEffect(() => {
-        const loadMarkdown = async () => {
+        const fetchData = async () => {
             if (!file_path) {
-                setContent('<p>No file path provided</p>');
+                setContent("<h1>ERR</h1><p>Invalid file path</p>");
                 return;
             }
 
-            try {
-                const response = await fetch(`/data/${file_path}.md`);
-                if (!response.ok) {
-                    throw new Error(`Failed to load file: ${response.statusText}`);
-                }
-                console.log(response);
-                const markdown = await response.text();
-                const html = await marked(markdown);
-                console.log(html);
-                setContent(html);
-            } catch (err) {
-                console.error(err);
-                setContent('<p>Error loading content</p>');
-            }
-        };
+            const markdown = await fetchAndProcessMarkdown(file_path);
+            setContent(markdown);
+            setLoading(false);
+        }
 
-        loadMarkdown();
-    }, []);
-
+        fetchData();
+    }, [file_path]);
     return (
         <>
             <Header />
             <main>
-                <div
-                    id="example-content"
-                    style={{
-                        width: "95%",
-                        marginLeft: "auto",
-                        marginRight: "auto",
-                    }}
-                    dangerouslySetInnerHTML={{ __html: content }}
-                />
+                {isLoading ? (
+                    <p>Loading...</p>
+                ) : (
+                    <div
+                        id="example-content"
+                        style={{
+                            width: "95%",
+                            marginLeft: "auto",
+                            marginRight: "auto",
+                        }}
+                        dangerouslySetInnerHTML={{ __html: content }}
+                    />)}
             </main>
             <Footer />
         </>

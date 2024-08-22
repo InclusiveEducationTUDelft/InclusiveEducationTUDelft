@@ -38,6 +38,8 @@
     cursor: pointer;
     align-self: flex-end;
     margin-top: auto;
+    text-decoration:  none;
+    color: #000;
 }
 
 @media (max-width: 991px) {

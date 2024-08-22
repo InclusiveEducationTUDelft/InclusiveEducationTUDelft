@@ -34,11 +34,11 @@ export async function fetchAndProcessMarkdown(file_path: string): Promise<string
  * Fetches the title (first h1) and content (first paragraph) from a markdown string
  * @param markdown the markdown string to process
  */
-function fetchTitleAndContent(markdown: string): { title: string, content: string } {
+export function fetchTitleAndContent(markdown: string): { title: string, content: string } {
     const titleMatch = markdown.match(/<h1>(.*?)<\/h1>/);
     const contentMatch = markdown.match(/<p>(.*?)<\/p>/);
     return {
-        title: titleMatch ? titleMatch[1] : "Error",
+        title: titleMatch ? titleMatch[1].toUpperCase() : "Error",
         content: contentMatch ? contentMatch[1] : "Error",
     };
 }

@@ -15,7 +15,7 @@ function Example({ path, title, content }: ExampleProps) {
     };
 
     return <div className={styles.container}>
-        <h3 className={styles.exampleTitle}>{title.toUpperCase()}</h3>
+        <h3 className={styles.exampleTitle}>{title}</h3>
         <div className={styles.innerContainer}>
             <p className={styles.content}>{content}</p>
             <button className={styles.readMore} type="button" onClick={handleClick}>

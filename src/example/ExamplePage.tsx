@@ -17,7 +17,7 @@ export async function fetchAndProcessMarkdown(file_path: string): Promise<string
     }
 
     try {
-        const response = await fetch(`/data/${file_path}.md`);
+        const response = await fetch(`data/${file_path}.md`);
         if (!response.ok) {
             throw new Error(`Failed to load file: ${response.statusText}`);
         }

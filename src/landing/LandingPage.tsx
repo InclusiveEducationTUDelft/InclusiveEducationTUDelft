@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../misc/header/Header';
-import WhyInclusive from '../landing/why/WhyInclusive';
-import Contribute from '../landing/contribute/Contribute';
-import InspiringExamples from '../landing/examples/InspiringExamples';
-import Hero from '../landing/hero/Hero';
-import InclusiveTips from '../landing/tips/InclusiveTips';
+import WhyInclusive from './why/WhyInclusive';
+import Contribute from './contribute/Contribute';
+import InspiringExamples from './examples/InspiringExamples';
+import Hero from './hero/Hero';
+import InclusiveTips from './tips/InclusiveTips';
 import Footer from '../misc/footer/Footer';
 
 const LandingPage: React.FC = () => {

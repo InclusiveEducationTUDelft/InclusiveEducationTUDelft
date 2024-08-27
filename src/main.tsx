@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import AboutPage from './about/AboutPage';
-import LandingPage from './pages/LandingPage';
+import LandingPage from './landing/LandingPage';
 import ExamplePage from './example/ExamplePage';
 import ExampleContentPage from './example/ExampleContentPage';
 

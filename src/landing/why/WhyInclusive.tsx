@@ -22,7 +22,7 @@ const infoCards = [
 
 const WhyInclusive: React.FC = () => {
   return (
-    <section className={styles.whyInclusive}>
+    <section className={styles.whyInclusive} id="why-inclusive-section">
       <h2 className={styles.sectionTitle}>Why Inclusive STEM Education Is Needed</h2>
       <div className={styles.cardContainer}>
         {infoCards.map((card, index) => (

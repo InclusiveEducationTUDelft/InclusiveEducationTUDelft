@@ -27,6 +27,7 @@
     font-weight: 600;
     color: #000;
     text-decoration: none;
+    cursor: pointer;
 }
 
 @media (max-width: 991px) {

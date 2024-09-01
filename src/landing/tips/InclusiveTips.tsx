@@ -19,7 +19,7 @@ const tips = [
 
 const InclusiveTips: React.FC = () => {
   return (
-    <section className={styles.inclusiveTips}>
+    <section className={styles.inclusiveTips} id="tips-section">
       <h2 className={styles.sectionTitle}>How you can make your education more inclusive</h2>
       <div className={styles.tipContainer}>
         {tips.map((tip, index) => (

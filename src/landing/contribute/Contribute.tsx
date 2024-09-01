@@ -28,7 +28,7 @@ const contributeOptions = [
 
 const Contribute: React.FC = () => {
   return (
-    <section className={styles.contribute}>
+    <section className={styles.contribute} id="contribute-section">
       <h2 className={styles.sectionTitle}>How can you Contribute</h2>
       <p className={styles.sectionDescription}>Lorem Ipsum is simply dummy text of the printing.</p>
       <div className={styles.cardContainer}>

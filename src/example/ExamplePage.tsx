@@ -5,12 +5,6 @@ import Header from '../misc/header/Header';
 import Example from './Example';
 import styles from './ExamplePage.module.css';
 
-const examplesContent = [
-    { path: 'example1' },
-    { path: 'example2' },
-    { path: 'example3' },
-]
-
 export async function fetchAndProcessMarkdown(file_path: string): Promise<string> {
     if (!file_path) {
         return "<h1>ERR</h1><p>Invalid file path</p>";
@@ -46,12 +40,25 @@ export function fetchTitleAndContent(markdown: string): { title: string, content
 function ExamplePage() {
     const [isLoading, setIsLoading] = useState(true);
     const [examplesData, setExamplesData] = useState<{ title: string, content: string, path: string }[]>([]);
+    const [examplesList, setExamplesList] = useState<string[]>([]);
+
+    useEffect(() => {
+        const readExamplesList = async () => {
+            try {
+                const response = await fetch('./data/data_list.json');
+                const data = response.ok ? await response.json() : [];
+                setExamplesList(data);
+            } catch (err) {
+                console.log(err);
+            }
+        };
+        readExamplesList();
+    }, []);
 
     useEffect(() => {
         const fetchData = async () => {
             const examples = [];
-            for (const example of examplesContent) {
-                const { path } = example;
+            for (const path of examplesList) {
                 const markdown = await fetchAndProcessMarkdown(path);
                 const { title, content } = fetchTitleAndContent(markdown);
                 examples.push({ path, title, content, markdown });
@@ -61,7 +68,7 @@ function ExamplePage() {
         };
 
         fetchData();
-    }, []);
+    }, [examplesList]);
 
     return (
         <>

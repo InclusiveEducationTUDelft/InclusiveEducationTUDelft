@@ -14,7 +14,7 @@ const Header: React.FC = () => {
     let element = document.getElementById(id);
 
     if (!element) {
-      navigate(window.location.hostname === 'localhost' ? '/' : '/InclusiveEducationTUDelft/');
+      navigate(window.location.hostname === 'localhost' ? '/' : '/');
     }
 
     async function fetchElement(id: string, retries = 5, delay = 100) {

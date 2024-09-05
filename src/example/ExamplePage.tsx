@@ -5,13 +5,15 @@ import Header from '../misc/header/Header';
 import Example from './Example';
 import styles from './ExamplePage.module.css';
 
+const MARKDOWN_PATH = './data/markdown/';
+
 export async function fetchAndProcessMarkdown(file_path: string): Promise<string> {
     if (!file_path) {
         return "<h1>ERR</h1><p>Invalid file path</p>";
     }
 
     try {
-        const response = await fetch(`data/${file_path}.md`);
+        const response = await fetch(`${MARKDOWN_PATH}/${file_path}.md`);
         if (!response.ok) {
             throw new Error(`Failed to load file: ${response.statusText}`);
         }
@@ -45,7 +47,7 @@ function ExamplePage() {
     useEffect(() => {
         const readExamplesList = async () => {
             try {
-                const response = await fetch('./data/data_list.json');
+                const response = await fetch(`${MARKDOWN_PATH}/data_list.json`);
                 const data = response.ok ? await response.json() : [];
                 setExamplesList(data);
             } catch (err) {

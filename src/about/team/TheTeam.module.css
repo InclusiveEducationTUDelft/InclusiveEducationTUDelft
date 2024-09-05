@@ -8,6 +8,12 @@
     justify-content: center;
 }
 
+@media (max-width: 991px) {
+    .teamSection {
+        width: 95%;
+    }
+}
+
 .sectionTitle {
     color: rgba(4, 56, 190, 1);
     margin-top: 111px;
@@ -41,6 +47,8 @@
 .teamWrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 50px auto 0;
 }
 
@@ -48,7 +56,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 100%
 }
 
 @media (max-width: 991px) {

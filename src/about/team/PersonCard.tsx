@@ -17,7 +17,7 @@ const PersonCard: React.FC<PersonCardProps> = ({
   <div className={styles.personWrapper}>
     <div className={styles.personalInfo}>
       <div className={styles.name}>
-        <span style={{ fontSize: "16px" }}>{name}</span>
+        {name}
         <br />
       </div>
       <div className={styles.heHim}>{pronouns}</div>

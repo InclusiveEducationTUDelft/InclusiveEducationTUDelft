@@ -52,7 +52,7 @@ To add an example manually, follow these steps:
 
 - Ensure that the last entry does not contain a comma at the end.
 - Use [this](https://jsonlint.com/) website to verify the file is a valid json.
-- 
+
 3. Create a Markdown file:
 - In the `public/data/markdown` folder, create a new markdown file with the same name as `your_example` you used in `data_list.json`, followed by the `.md` suffix (e.g., `your-example.md`).
 - Use the content structure as described above in the markdown file.

@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.sectionTitle {
+    color: rgba(4, 56, 190, 1);
+    letter-spacing: 1px;
+    text-align: center;
+    font: 600 40px/2 Poppins, sans-serif;
+
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.tips {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .section {
+        padding-top: 100px;
+    }
+
+    .sectionTitle {
+        max-width: 100%;
+        font-size: 40px;
+        margin: 40px 10px 0;
+    }
+
+    .tips {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .column {
+        width: 100%;
+    }
+
+    .columnInner {
+        width: 100%;
+    }
+}

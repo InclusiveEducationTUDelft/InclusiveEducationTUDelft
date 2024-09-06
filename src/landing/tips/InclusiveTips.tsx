@@ -1,31 +1,43 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './InclusiveTips.module.css';
-import TipCard from './TipCard';
+import { fetchAndProcessMarkdown, fetchTitleAndContent, TipType } from '../../tips/TipPage';
+import Tip from '../../tips/Tip';
 
-const tips = [
-  {
-    number: 1,
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    number: 2,
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    number: 3,
-    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  }
+const tipsList = [
+  "tip1", "tip2", "tip3"
 ];
 
 const InclusiveTips: React.FC = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [tipsData, setTipsData] = useState<{ title: string, content: string, tipType: TipType, redirect: string, path: string }[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const tips = [];
+      for (const path of tipsList) {
+        const markdown = await fetchAndProcessMarkdown(path);
+        const { title, content, tipType, redirect } = fetchTitleAndContent(markdown);
+        tips.push({ path, title, content, tipType, redirect, markdown });
+      }
+      setTipsData(tips);
+      setIsLoading(false);
+    };
+
+    fetchData();
+  }, [tipsList]);
+
   return (
     <section className={styles.inclusiveTips} id="tips-section">
       <h2 className={styles.sectionTitle}>How you can make your education more inclusive</h2>
-      <div className={styles.tipContainer}>
-        {tips.map((tip, index) => (
-          <TipCard key={index} {...tip} />
-        ))}
-      </div>
+      {isLoading ? (
+        <p>Loading...</p>
+      ) : (
+        <div className={styles.tipContainer}>
+          {tipsData.map((example, index) => (
+            <Tip key={index} {...example} />
+          ))}
+        </div>
+      )}
     </section>
   );
 };

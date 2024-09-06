@@ -1,33 +1,37 @@
 .inclusiveTips {
-    background-color: #fff;
-    padding: 4rem 2rem;
+  background-color: #fff;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTitle {
+  color: #0438be;
+  font-size: 3.125rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.tipContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  width: 90%;
+}
+
+@media (max-width: 991px) {
+  .inclusiveTips {
+    padding: 3rem 1rem;
   }
-  
+
   .sectionTitle {
-    color: #0438be;
-    font-size: 3.125rem;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 3rem;
+    font-size: 2.5rem;
   }
-  
+
   .tipContainer {
-    display: flex;
-    justify-content: space-between;
-    gap: 1.25rem;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  @media (max-width: 991px) {
-    .inclusiveTips {
-      padding: 3rem 1rem;
-    }
-  
-    .sectionTitle {
-      font-size: 2.5rem;
-    }
-  
-    .tipContainer {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
+}

@@ -8,6 +8,7 @@
 @media screen and (max-width: 991px) {
     .container {
         width: 100%;
+        margin-bottom: 30px;
     }
 }
 
@@ -27,15 +28,15 @@
 
 .exampleTitle {
     text-align: center;
-    font-size: 38px;
+    font-size: 25px;
     font-weight: 700;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    height: 80px;
 }
 
 @media screen and (max-width: 991px) {
     .exampleTitle {
-        margin-bottom: 15px;
+        font-size: 23px;
+        height: 60px;
     }
 }
 

@@ -21,7 +21,7 @@ const TheProject: React.FC = () => (
             future generations of innovators and problem-solvers.
             <br />
             <br />
-            Our approach centres around three main activities:
+            Our approach centers around three main activities:
             <br />
             <ol>
               <li>

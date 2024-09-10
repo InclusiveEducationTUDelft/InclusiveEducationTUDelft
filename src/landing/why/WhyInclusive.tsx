@@ -24,7 +24,7 @@ const WhyInclusive: React.FC = () => {
   return (
     <section className={styles.whyInclusive} id="why-inclusive-section">
       <h2 className={styles.sectionTitle}>Why Inclusive STEM Education Is Needed</h2>
-      <p>
+      <p className={styles.sectionParagraph}>
         As higher educational institutions shift their focus towards enhancing educational outcomes for all students, 
         regardless of their differences, it is essential to create content that is suitable for all ​(Dewsbury, 2019)​. 
         Recognizing and addressing the unique needs of diverse student populations is crucial in fostering an inclusive 

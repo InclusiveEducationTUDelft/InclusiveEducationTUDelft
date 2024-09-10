@@ -10,12 +10,12 @@ const infoCards = [
   },
   {
     title: "Gender",
-    content: "It is widely recognized that women are underrepresented in the STEM field, highlighting the importance of providing support to close the gender gap ​(Verdugo-Castro, 2022)​. Providing an inclusive and welcoming environment for women in the field is, therefore, a crucial step towards inclusivity ​(Casad, 2021)​. ",
+    content: "Women and nonbinary people are underrepresented in most STEM field. Providing an inclusive and welcoming environment for all is a crucial step towards inclusivity.",
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/f36c5f32a5c415a6ee76b79b280073c9dd96d610269e88972c4fd4d84e432e99?apiKey=91547a0531724dfdbec3493d0aeb27e5&"
   },
   {
     title: "Neurodiversity",
-    content: "The broad spectrum of diverse students includes students experiencing and interacting with the world around them in many different ways. We not only need to providing the necessary facilities for all, but also need to be open and considerate to foster a safe and inclusive environment ​(Lopez-Gavira, 2019)​.",
+    content: "Students experiencing and interacting with the world around them in many different ways. Next to providing the necessary facilities, we need to be open and considerate to foster a safe and inclusive environment.",
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/72d23130ec66bbe8f014bf49ed685c4b7ba08a06782039eb59e091c82c124b26?apiKey=91547a0531724dfdbec3493d0aeb27e5&"
   }
 ];

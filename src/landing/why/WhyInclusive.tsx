@@ -10,12 +10,12 @@ const infoCards = [
   },
   {
     title: "Gender",
-    content: "It is widely recognized that women are underrepresented in the STEM field, highlighting the importance of providing support to close the gender gap ​(Verdugo-Castro, 2022)​. Apart from being highly underrepresented, there is also a lack of inclusion that reflects the sense of belonging of the females in the STEM field ​(Schmader, 2018)​.  Providing an inclusive and welcoming environment for women in the field is, therefore, a crucial step towards inclusivity ​(Casad, 2021)​. ",
+    content: "It is widely recognized that women are underrepresented in the STEM field, highlighting the importance of providing support to close the gender gap ​(Verdugo-Castro, 2022)​. Providing an inclusive and welcoming environment for women in the field is, therefore, a crucial step towards inclusivity ​(Casad, 2021)​. ",
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/f36c5f32a5c415a6ee76b79b280073c9dd96d610269e88972c4fd4d84e432e99?apiKey=91547a0531724dfdbec3493d0aeb27e5&"
   },
   {
     title: "Neurodiversity",
-    content: "The broad spectrum of diverse students includes a range of disabilities that must be considered to provide them the best possible support. This issue needs to be addressed and improved, as numerous studies indicate that the current support is insufficient ​(Lopez-Gavira, 2019)​. Here, the issue involves not only providing the necessary facilities, but also being open and considerate about students’ disabilities to foster a safe and inclusive environment ​(Lopez-Gavira, 2019)​.",
+    content: "The broad spectrum of diverse students includes students experiencing and interacting with the world around them in many different ways. We not only need to providing the necessary facilities for all, but also need to be open and considerate to foster a safe and inclusive environment ​(Lopez-Gavira, 2019)​.",
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/72d23130ec66bbe8f014bf49ed685c4b7ba08a06782039eb59e091c82c124b26?apiKey=91547a0531724dfdbec3493d0aeb27e5&"
   }
 ];

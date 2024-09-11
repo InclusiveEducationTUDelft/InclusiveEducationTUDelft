@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
   const getTodaysTip = () => {
     const today = new Date();
     const day = today.getDate();
-    return tipsData[day % tipsData.length];
+    return tipsData[(day - 1) % tipsData.length];
   }
 
   return (

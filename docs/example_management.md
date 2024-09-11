@@ -1,7 +1,7 @@
 
 # Example Content Management
 ### Where to find these examples
-The example content is located in the `public/data/markdown` folder.
+The example content is located in the `public/data/examples` folder.
 The actual examples can be found under the `examples` page (you can navigate to it using the navbar).
 
 NOTE! The example paths on the main page of the application are hardcoded in the `src/landing/examples/InspiringExamples.tsx` file.
@@ -16,7 +16,6 @@ The title and paragraph are going to be displayed on the examples preview page.
 
 Everything else below these two "lines" is going to be displayed on the actual page of the example.
 
-  
 
 ### Example Content Structure:
 ```
@@ -33,9 +32,9 @@ Lorem ipsum dololololo :)
 
 ## Adding an example:
 To add an example manually, follow these steps:
-1. Locate the `public/data/markdown` folder:
+1. Locate the `public/data/examples` folder:
 
-- Navigate to the `public/data/markdown` folder in your project directory.
+- Navigate to the `public/data/examples` folder in your project directory.
 
 2. Update the `data_list.json` file:
 
@@ -54,13 +53,13 @@ To add an example manually, follow these steps:
 - Use [this](https://jsonlint.com/) website to verify the file is a valid json.
 
 3. Create a Markdown file:
-- In the `public/data/markdown` folder, create a new markdown file with the same name as `your_example` you used in `data_list.json`, followed by the `.md` suffix (e.g., `your-example.md`).
+- In the `public/data/examples` folder, create a new markdown file with the same name as `your_example` you used in `data_list.json`, followed by the `.md` suffix (e.g., `your-example.md`).
 - Use the content structure as described above in the markdown file.
 
 NOTE: Adding an entry to the `data_list.json` file without creating a markdown file with the same name will cause errors.
 
 ## Editing an example:
-To edit an example, simply modify the relevant markdown file in the `public/data/markdown` folder. Ensure that any changes to the title or description are also updated in the `data_list.json` file if necessary.
+To edit an example, simply modify the relevant markdown file in the `public/data/examples` folder. Ensure that any changes to the title or description are also updated in the `data_list.json` file if necessary.
 
 ## Removing an example:
-To remove an example, delete the corresponding markdown file from the `public/data/markdown` folder and remove the associated entry from the `data_list.json` file.
+To remove an example, delete the corresponding markdown file from the `public/data/examples` folder and remove the associated entry from the `data_list.json` file.

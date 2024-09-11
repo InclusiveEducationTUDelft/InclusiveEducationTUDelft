@@ -4,7 +4,9 @@ import { fetchAndProcessMarkdown, fetchTitleAndContent, TipType } from '../../ti
 import Tip from '../../tips/Tip';
 
 const tipsList = [
-  "people-things", "pronouns", "gendered-names-representation"
+  "pronouns",
+  "people-things",
+  "gendered-names-representation"
 ];
 
 const InclusiveTips: React.FC = () => {

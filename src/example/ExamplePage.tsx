@@ -5,7 +5,7 @@ import Header from '../misc/header/Header';
 import Example from './Example';
 import styles from './ExamplePage.module.css';
 
-const MARKDOWN_PATH = './data/markdown/';
+const MARKDOWN_PATH = './data/examples/';
 
 export async function fetchAndProcessMarkdown(file_path: string): Promise<string> {
     if (!file_path)

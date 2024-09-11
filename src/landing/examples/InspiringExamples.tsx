@@ -5,9 +5,9 @@ import { fetchAndProcessMarkdown, fetchTitleAndContent } from '../../example/Exa
 import Example from '../../example/Example';
 
 const examples_list = [
-  "hotel-vs-cargo",
   "lena-image-processing",
-  "names-cryptography"
+  "names-cryptography",
+  "hotel-vs-cargo",
 ]
 
 const InspiringExamples: React.FC = () => {

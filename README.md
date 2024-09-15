@@ -21,6 +21,10 @@ Run the development server with `npm run dev`.
 The output of the command should tell you what port you're running on (e.g. `Local:   http://localhost:5173/`).
 You can view the website from the URL `localhost:port` (5173 in the previous case, sometimes 5174).
 
+### Expected Prior Knowledge
+All of the examples and tips are written in markdown. You can practice writing markdown in an online editor like [StackEdit](https://stackedit.io/) or take a look at the list of markdown tags [here](https://www.markdownguide.org/basic-syntax/).
+A lot of the data works with JSON objects. Understanding JSON is required for updating the examples or tips displayed on the landing page or editing the tip of the day. You can view a quick video explaining JSON [here](https://www.youtube.com/watch?v=7mj-p1Os6QA).
+
 ### Examples Management
 The example content is placed in the `public/data/examples` folder.
 For a more detailed guide on how to handle examples refer to the `example_management` file in the `docs` folder.

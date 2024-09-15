@@ -2,7 +2,7 @@
 # Example Content Management
 ### Where to find these examples
 The example content is located in the `public/data/examples` folder.
-The actual examples can be found under the `examples` page (you can navigate to it using the navbar).
+You can view the examples working under the `examples` page (you can navigate to it using the navbar).
 
 NOTE! The example paths on the main page of the application are hardcoded in the `src/landing/examples/InspiringExamples.tsx` file.
 

@@ -19,7 +19,7 @@ const infoCards = [
     title: "Neurodiversity",
     content: "Students experiencing and interacting with the world around them in many different ways. Next to providing the necessary facilities, we need to be open and considerate to foster a safe and inclusive environment.",
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/72d23130ec66bbe8f014bf49ed685c4b7ba08a06782039eb59e091c82c124b26?apiKey=91547a0531724dfdbec3493d0aeb27e5&",
-    href: "#gender"
+    href: "#neurodiversity"
   }
 ];
 

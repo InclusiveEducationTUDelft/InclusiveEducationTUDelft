@@ -1,0 +1,57 @@
+.explanation {
+    background-color: #FFF5D3;
+
+    margin-top: 40px;
+}
+
+.explanationContainer {
+    width: 85%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.explanationContent {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.explanationTitle {
+    color: rgba(4, 56, 190, 1);
+    font: 600 50px/1 Roboto, sans-serif;
+}
+
+.explanationText {
+    font-size: 17px;
+}
+
+.explanationImage {
+    width: 30%;
+    height: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .explanationContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .explanationImage {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .explanationTitle {
+        font-size: 40px;
+    }
+}

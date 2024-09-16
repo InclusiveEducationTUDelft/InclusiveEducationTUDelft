@@ -1,0 +1,41 @@
+.chapter {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 30px;
+}
+
+.chapterTitle {
+    width: min-content;
+    
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #FFC501;
+
+    margin-bottom: 20px;
+
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+}
+
+.term {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.definition {
+    font-size: 14px;
+    color: #8A8A8A;
+}

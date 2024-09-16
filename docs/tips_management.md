@@ -28,11 +28,11 @@ Lorem ipsum dololololo :)
 
 There are 3 types of tips:
 
-#### Simple Tips
+#### 1. Simple Tips
 These tips only appear on the tips page with no "Read More" button.
 These tips must only contain the Title and Subtitle.
 
-#### Redirect Tips
+#### 2. Redirect Tips
 These tips will have the "Read More" button redirect to a link you provide.
 The format of these tips must be 
 
@@ -46,7 +46,7 @@ This is the second tip- curious to see whether it will redirect to my GitHub pag
 
 The link URL you see is where the button will redirect to.
 
-#### Complex Tips
+#### 3. Complex Tips
 These are tips that have their own page. In order to create one you must only add content after the subtitle.
 
 ## Adding a tip:

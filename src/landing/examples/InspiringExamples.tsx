@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import styles from './InspiringExamples.module.css';
 import { useNavigate } from 'react-router-dom';
-import { fetchAndProcessMarkdown, fetchTitleAndContent } from '../../example/ExamplePage';
 import Example from '../../example/Example';
+import { fetchAndProcessMarkdown, fetchTitleAndContent } from '../../example/ExamplePage';
+import styles from './InspiringExamples.module.css';
 
 const examples_list = [
   "lena-image-processing",

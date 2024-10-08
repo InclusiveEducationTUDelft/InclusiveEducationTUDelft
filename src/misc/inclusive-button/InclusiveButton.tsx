@@ -3,6 +3,7 @@ import styles from "./InclusiveButton.module.css";
 interface InclusiveButtonProps {
     alignSelf?: string;
     href?: string;
+    text?: string;
 }
 
 function InclusiveButton(props: InclusiveButtonProps) {
@@ -12,7 +13,7 @@ function InclusiveButton(props: InclusiveButtonProps) {
         }}><a
             className={styles.inclusiveTag}
             href={!props.href ? "" : props.href}
-        >Read More
+        >{props.text ? props.text : "Read More"}
             </a>
         </button >
     </>

@@ -32,7 +32,6 @@
 
 @media (max-width: 991px) {
     .header {
-        width: 100%;
         flex-direction: column;
         padding: 1rem;
     }
@@ -41,6 +40,6 @@
         width: 100%;
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 }

@@ -7,7 +7,7 @@ const contributeOptions = [
     title: "GITHUB",
     content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/8f58dec820eb357f459bf235d9d2fee1aade47f10ff7cf70b3e3dec84fa7d9a1?apiKey=91547a0531724dfdbec3493d0aeb27e5&",
-    buttonText: "Go to GITHUB",
+    buttonText: "Go to GitHub",
     href: "https://github.com/InclusiveEducationTUDelft/InclusiveEducationTUDelft",
   },
   {

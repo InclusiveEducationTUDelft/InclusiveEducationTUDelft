@@ -1,8 +1,6 @@
 
 # Tips of the Day Management
 
-  
-
 ## Step One: Locate the JSON file
 
 The tips are stored in the `public/data/tip_of_the_day.json` file.

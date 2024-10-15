@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './InclusiveTips.module.css';
 import { fetchAndProcessMarkdown, fetchTitleAndContent, TipType } from '../../tips/TipPage';
 import Tip from '../../tips/Tip';
+import InclusiveButton from '../../misc/inclusive-button/InclusiveButton';
 
 const tipsList = [
   "pronouns",
@@ -40,6 +41,7 @@ const InclusiveTips: React.FC = () => {
           ))}
         </div>
       )}
+      <InclusiveButton href="#tips" text="Explore More" alignSelf='center' marginTop="4%" />
     </section>
   );
 };

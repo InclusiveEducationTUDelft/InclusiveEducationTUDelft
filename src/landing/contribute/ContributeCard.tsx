@@ -18,7 +18,7 @@ const ContributeCard: React.FC<ContributeCardProps> = ({ title, content, icon, b
                 <p className={styles.cardContent}>{content}</p>
                 <div className={styles.cardFooter}>
                     <img src={icon} alt="" className={styles.cardIcon} />
-                    <InclusiveButton href={href} text={buttonText} />
+                    <InclusiveButton href={href} text={buttonText} target="_blank" />
                 </div>
             </div>
         </div>

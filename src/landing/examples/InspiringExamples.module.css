@@ -30,8 +30,6 @@
     font-weight: 500;
     cursor: pointer;
     display: block;
-    
-    margin-left: auto;
 }
 
 @media (max-width: 991px) {

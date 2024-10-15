@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import styles from './Example.module.css';
 import InclusiveButton from '../misc/inclusive-button/InclusiveButton';
+import styles from './Example.module.css';
 
 type ExampleProps = {
     path: string;
@@ -10,7 +9,7 @@ type ExampleProps = {
 };
 
 function Example({ path, title, content }: ExampleProps) {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const [actualContent, setActualContent] = useState(content);
 
     useEffect(() => {
@@ -23,9 +22,9 @@ function Example({ path, title, content }: ExampleProps) {
         }
     }, [content]);
 
-    const handleClick = () => {
-        navigate(`${path}/`);
-    };
+    // const handleClick = () => {
+    //     navigate(`${path}/`);
+    // };
 
     return <div className={styles.container}>
         <h3 className={styles.exampleTitle}>{title}</h3>

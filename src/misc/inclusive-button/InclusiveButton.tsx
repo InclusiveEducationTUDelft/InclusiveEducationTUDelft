@@ -13,6 +13,7 @@ function InclusiveButton(props: InclusiveButtonProps) {
         }}><a
             className={styles.inclusiveTag}
             href={!props.href ? "" : props.href}
+            target="_blank"
         >{props.text ? props.text : "Read More"}
             </a>
         </button >

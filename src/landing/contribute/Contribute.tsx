@@ -15,7 +15,7 @@ const contributeOptions = [
     content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/97dea5e06415fe5f39a91fd3f23db2ae63472e08ad7c6023c0cde42909ad87f0?apiKey=91547a0531724dfdbec3493d0aeb27e5&",
     buttonText: "Send Email",
-    href: "mailto:test@test.com"
+    href: "mailto:inclusiveEducation@tudelft.nl"
   },
   {
     title: "SHARE YOUR STORY",

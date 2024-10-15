@@ -31,7 +31,7 @@ function Example({ path, title, content }: ExampleProps) {
         <h3 className={styles.exampleTitle}>{title}</h3>
         <div className={styles.innerContainer}>
             <p className={styles.content}>{actualContent}</p>
-            <InclusiveButton text="Read More" target="_blank" marginTop="4%" href={`#example/${path}`} />
+            <InclusiveButton text="Read More" marginTop="4%" href={`#example/${path}`} />
             {/* <button className={styles.readMore} type="button" onClick={handleClick}>
                 Read More
             </button> */}

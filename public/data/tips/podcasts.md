@@ -1,3 +1,3 @@
-# TIP 1
+# Listen to podcasts on inclusivity 
 
-This is the first tip without a page nor link.
+There are several podcasts on the theme of inclusivity. Suggestions will follow.

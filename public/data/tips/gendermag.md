@@ -1,4 +1,4 @@
-# Use GendereMag to help making inclusive software
+# Use GendereMag to make inclusive software
 
 When students are working on software projects, they can consult GenderMag
 

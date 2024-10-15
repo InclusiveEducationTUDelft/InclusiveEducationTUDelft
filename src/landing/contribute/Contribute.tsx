@@ -29,7 +29,7 @@ const contributeOptions = [
 const Contribute: React.FC = () => {
   return (
     <section className={styles.contribute} id="contribute-section">
-      <h2 className={styles.sectionTitle}>How can you Contribute</h2>
+      <h2 className={styles.sectionTitle}>How Can You Contribute</h2>
       <div className={styles.cardContainer}>
         {contributeOptions.map((option, index) => (
           <ContributeCard key={index} {...option} />

@@ -33,8 +33,9 @@ const WhyInclusive: React.FC = () => {
         Recognizing and addressing the unique needs of diverse student populations is crucial in fostering an inclusive 
         environment. Inclusive STEM education will help a diverse group of students to progress through their studies. 
         This results in more people being educated in STEM fields, providing them with good career opportunities. 
-        Moreover, since STEM innovations largely impact society, we enable a better representation of society to create, build and shape the direction of our fields. 
-      </p>
+        Moreover, since STEM innovations largely impact society, we enable a better representation of society to create, 
+        build and shape the direction of our fields. 
+      </p> 
       <div className={styles.cardContainer}>
         {infoCards.map((card, index) => (
           <InfoCard key={index} {...card} />

@@ -199,7 +199,7 @@ const TheTeam: React.FC = () => (
             name={member.name}
             pronouns={member.pronouns}
             bio={member.bio}
-            imgSrc={member.imgSrc}
+            imgSrc={"." + member.imgSrc}
           />
         ))}
       </div>

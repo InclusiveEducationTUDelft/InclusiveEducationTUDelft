@@ -87,9 +87,9 @@ const teamMembers: Person[] = [
 
     name: "Anandini Jayanthi",
 
-    pronouns: "",
+    pronouns: "She/Her",
 
-    bio: "",
+    bio: "Anandini Sravya Jayanthi is a second-year international PhD candidate who believes that diverse minds in STEM will strengthen science and facilitate growth. She identifies as a woman (she/her) and hopes to help build an inclusive workspace",
 
     imgSrc: "/team/Anandini.png",
 
@@ -113,7 +113,7 @@ const teamMembers: Person[] = [
 
     pronouns: "He/Him",
 
-    bio: "Motorcycle Enthusiast",
+    bio: "Motorcycle enthusiast!",
 
     imgSrc: "/team/Alex.png",
 

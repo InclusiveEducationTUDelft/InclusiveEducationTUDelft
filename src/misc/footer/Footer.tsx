@@ -1,15 +1,18 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import useNavigator from '../useNavigator';
 
 const Footer: React.FC = () => {
+  const { scrollTo } = useNavigator();
+
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.footerAbout}>
           <h2 className={styles.footerTitle}>Towards Open Inclusive STEM Education</h2>
           <p className={styles.footerDescription}>
-            We are a team of educators, researchers, and students from TU Delft 
-            with a shared commitment to make our STEM education open, inclusive and accesible. 
+            We are a team of educators, researchers, and students from TU Delft
+            with a shared commitment to make our STEM education open, inclusive and accesible.
             In this project, we collect resources, document best practices, and train educators.
             We are funded by the TU Delft Open Science programme.
           </p>
@@ -17,11 +20,11 @@ const Footer: React.FC = () => {
         <nav className={styles.footerNav}>
           <h3 className={styles.navTitle}>Inclusive STEM Education</h3>
           <ul className={styles.navList}>
-            <li><a href="#about">About us</a></li>  
-            <li><a href="#why">Why Inclusive STEM Education</a></li>
-            <li><a href="#tips">Tips & Tools</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a onClick={() => scrollTo("why-inclusive-section")}>Why Inclusive STEM Education</a></li>
+            <li><a onClick={() => scrollTo("tips-sectionn")}>Tips & Tools</a></li>
             <li><a href="#example">Examples</a></li>
-            <li><a href="#contribute">Contribute</a></li>
+            <li><a onClick={() => scrollTo("contribute-section")}>Contribute</a></li>
           </ul>
         </nav>
         <div className={styles.footerContact}>

@@ -1,4 +1,4 @@
-# GenderMag can help your students making more inclusive software
+# Encourage your students to build inclusive software
 
 A tool to help your students to develop more inclusive software.
 

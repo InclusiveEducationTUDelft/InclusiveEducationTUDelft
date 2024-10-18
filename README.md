@@ -36,3 +36,7 @@ For a more detailed guide on how to handle examples refer to the `tips_managemen
 ### Tip of the Day Management
 The tip of the day data is in the `public/data/tip_of_the_day.json` file.
 For a more detailed guide on how to handle tip of the day refer to the `totd_management` file in the `docs` folder.
+
+### Glossary Management
+The glossary data is in the `public/data/glossary.json` file.
+For a more detailed guide on how to handle glossary data refer to the `glossary_management` file in the `docs` folder.

@@ -20,7 +20,8 @@
 
 .infoContent {
     background-color: #fff;
-    height: 380px;
+    min-height: 400px;
+    height: min-content;
     padding: 2rem 1rem;
     
     display: flex;
@@ -48,31 +49,13 @@
     margin-top: auto;
 }
 
-.readMoreBtn {
-    background-color: #ffc501;
-    border: none;
-    border-radius: 218px;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.25rem;
-    font-weight: 500;
-    cursor: pointer;
-    
-    align-self: flex-end;
-}
-
-@media (max-width: 991px) {
-    .readMoreBtn {
-        font-size: 1rem;
-    }
-}
-
 .cardIcon {
-    width: 13rem;
+    width: 60%;
     height: auto;
 }
 
 @media (max-width: 991px) {
     .cardIcon {
-        width: 10rem;
+        width: 60%;
     }
 }

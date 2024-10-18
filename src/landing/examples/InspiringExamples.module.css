@@ -26,12 +26,10 @@
     border: none;
     border-radius: 218px;
     padding: 1rem 1.5rem;
-    font-size: 1.5625rem;
+    font-size: 1.4rem;
     font-weight: 500;
     cursor: pointer;
     display: block;
-    
-    margin-left: auto;
 }
 
 @media (max-width: 991px) {

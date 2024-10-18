@@ -1,0 +1,45 @@
+.inclusiveButton {
+    background-color: #ffc501;
+    border: none;
+    border-radius: 218px;
+    padding: 0.75rem 1.5rem;
+    font-size: 120%;
+    font-weight: 500;
+    cursor: pointer;
+
+    width: min-content;
+
+    align-self: flex-end;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+.inclusiveButton:hover {
+    background-color: #ffdb4d;
+}
+
+.inclusiveTag {
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: #000;
+}
+
+.inclusiveTag:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+}
+
+.inclusiveTag:hover:after {
+    width: 100%;
+    background-color: #000;
+    transition: width 0.2s;
+}
+
+
+@media (max-width: 991px) {
+    .inclusiveButton {
+        font-size: 1rem;
+    }
+}

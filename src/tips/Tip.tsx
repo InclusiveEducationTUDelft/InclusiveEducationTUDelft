@@ -1,6 +1,6 @@
-import { useNavigate } from 'react-router-dom';
-import { TipType } from './TipPage';
+import InclusiveButton from '../misc/inclusive-button/InclusiveButton';
 import styles from './Tip.module.css';
+import { TipType } from './TipPage';
 
 type TipProps = {
     path: string;
@@ -11,18 +11,18 @@ type TipProps = {
 };
 
 function Tip({ path, title, content, tipType, redirect }: TipProps) {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const handleClick = () => {
-        switch (tipType) {
-            case TipType.PAGE:
-                navigate(`${path}/`);
-                break;
-            case TipType.REDIRECT:
-            default:
-                break;
-        }
-    };
+    // const handleClick = () => {
+    //     switch (tipType) {
+    //         case TipType.PAGE:
+    //             navigate(`tips/${path}/`);
+    //             break;
+    //         case TipType.REDIRECT:
+    //         default:
+    //             break;
+    //     }
+    // };
 
     return (
         <div className={styles.container}>
@@ -30,12 +30,13 @@ function Tip({ path, title, content, tipType, redirect }: TipProps) {
             <div className={styles.innerContainer}>
                 <p className={styles.content}>{content}</p>
                 {tipType !== TipType.SINGLE && (
-                    <button className={styles.readMore} type="button" onClick={handleClick}>
-                        <a style={{
-                            textDecoration: 'none',
-                            color: '#000'
-                        }}href={tipType === TipType.REDIRECT ? redirect : undefined}>Read More</a>
-                    </button>
+                    <InclusiveButton text="Read More" alignSelf="center" target="_blank" marginTop="4%" href={tipType === TipType.REDIRECT ? redirect : "#tips/" + path} />
+                    // <button className={styles.readMore} type="button" onClick={handleClick}>
+                    //     <a style={{
+                    //         textDecoration: 'none',
+                    //         color: '#000'
+                    //     }}href={tipType === TipType.REDIRECT ? redirect : undefined}>Read More</a>
+                    // </button>
                 )}
             </div>
         </div>

@@ -36,7 +36,7 @@
 @media (max-width: 991px) {
     .hero {
         flex-direction: column;
-        padding: 2rem 1rem;
+        margin: 0;
     }
 
     .tipText {

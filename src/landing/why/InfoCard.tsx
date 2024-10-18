@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './InfoCard.module.css';
+import InclusiveButton from '../../misc/inclusive-button/InclusiveButton';
 
 interface InfoCardProps {
     title: string;
@@ -15,13 +16,10 @@ const InfoCard: React.FC<InfoCardProps> = (props: InfoCardProps) => {
             <div className={styles.infoContent}>
                 <div className={styles.cardContent}>{props.content}</div>
                 <div className={styles.cardFooter}>
-                    <button className={styles.readMoreBtn}><a href={props.href} style={{
-                        textDecoration: 'none',
-                        color: '#000'
-                    }}>Read More</a></button>
-                <img src={props.icon} alt="" className={styles.cardIcon} />
+                    <InclusiveButton href={props.href} alignSelf="flexEnd" />
+                    <img src={props.icon} alt="" className={styles.cardIcon} />
+                </div>
             </div>
-        </div>
         </div >
     );
 };

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import styles from './InspiringExamples.module.css';
-import { useNavigate } from 'react-router-dom';
-import { fetchAndProcessMarkdown, fetchTitleAndContent } from '../../example/ExamplePage';
 import Example from '../../example/Example';
+import { fetchAndProcessMarkdown, fetchTitleAndContent } from '../../example/ExamplePage';
+import InclusiveButton from '../../misc/inclusive-button/InclusiveButton';
+import styles from './InspiringExamples.module.css';
 
 const examples_list = [
   "lena-image-processing",
@@ -11,8 +11,6 @@ const examples_list = [
 ]
 
 const InspiringExamples: React.FC = () => {
-  const navigate = useNavigate();
-
   const [examplesData, setExamplesData] = useState<{ title: string, content: string, path: string }[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -43,7 +41,7 @@ const InspiringExamples: React.FC = () => {
           ))}
         </div>
       )}
-      <button className={styles.exploreMoreBtn} onClick={() => navigate("example")}>Explore More</button>
+      <InclusiveButton text="Explore More" alignSelf='center' marginTop="4%" href="#example" />
     </section >
   );
 };

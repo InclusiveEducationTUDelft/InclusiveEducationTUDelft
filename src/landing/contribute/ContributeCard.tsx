@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ContributeCard.module.css';
+import InclusiveButton from '../../misc/inclusive-button/InclusiveButton';
 
 interface ContributeCardProps {
     title: string;
@@ -17,9 +18,7 @@ const ContributeCard: React.FC<ContributeCardProps> = ({ title, content, icon, b
                 <p className={styles.cardContent}>{content}</p>
                 <div className={styles.cardFooter}>
                     <img src={icon} alt="" className={styles.cardIcon} />
-                    <a href={href} target="_blank" rel="noopener noreferrer">
-                        <button className={styles.actionBtn}>{buttonText}</button>
-                    </a>
+                    <InclusiveButton href={href} text={buttonText} target="_blank" />
                 </div>
             </div>
         </div>

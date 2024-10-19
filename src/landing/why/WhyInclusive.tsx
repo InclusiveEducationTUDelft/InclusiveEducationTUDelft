@@ -11,7 +11,7 @@ const infoCards = [
   },
   {
     title: "Gender",
-    content: "Women and nonbinary people are underrepresented in most STEM field. Providing an inclusive and welcoming environment for all is a crucial step towards gender diversity in STEM.",
+    content: "Women and nonbinary people are underrepresented in most STEM fields. Providing an inclusive and welcoming environment for all is a crucial step towards gender diversity in STEM.",
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/f36c5f32a5c415a6ee76b79b280073c9dd96d610269e88972c4fd4d84e432e99?apiKey=91547a0531724dfdbec3493d0aeb27e5&",
     href: "#gender"
   },

@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           <h2 className={styles.footerTitle}>Towards Open Inclusive STEM Education</h2>
           <p className={styles.footerDescription}>
             We are a team of educators, researchers, and students from TU Delft
-            with a shared commitment to make our STEM education open, inclusive and accesible.
+            with a shared commitment to make our STEM education open, inclusive and accessible.
             In this project, we collect resources, document best practices, and train educators.
             We are funded by the TU Delft Open Science programme.
           </p>

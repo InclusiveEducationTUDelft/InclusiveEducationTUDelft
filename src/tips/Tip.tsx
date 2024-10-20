@@ -30,7 +30,7 @@ function Tip({ path, title, content, tipType, redirect }: TipProps) {
             <div className={styles.innerContainer}>
                 <p className={styles.content}>{content}</p>
                 {tipType !== TipType.SINGLE && (
-                    <InclusiveButton text="Read More" alignSelf="center" target="_blank" marginTop="4%" href={tipType === TipType.REDIRECT ? redirect : "#tips/" + path} />
+                    <InclusiveButton text="Read More" alignSelf="flex-end" target="_blank" marginTop="4%" href={tipType === TipType.REDIRECT ? redirect : "#tips/" + path} />
                     // <button className={styles.readMore} type="button" onClick={handleClick}>
                     //     <a style={{
                     //         textDecoration: 'none',

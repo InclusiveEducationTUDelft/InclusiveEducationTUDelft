@@ -50,7 +50,7 @@ export function fetchTitleAndContent(markdown: string): { title: string, content
     const hasAdditionalContent = markdown.length > (titleMatch?.index ?? 0) + (titleMatch?.[0]?.length ?? 0) + (contentMatch?.index ?? 0) + (contentMatch?.[0]?.length ?? 0);
 
     return {
-        title: titleMatch ? titleMatch[1].toUpperCase() : "Error",
+        title: titleMatch ? titleMatch[1] : "Error",
         content: contentMatch ? contentMatch[1] : "Error",
         tipType: redirectMatch && contentMatch?.length == 2 ? TipType.REDIRECT : hasAdditionalContent ? TipType.PAGE : TipType.SINGLE,
         redirect: redirectMatch ? redirectMatch[1] : ""

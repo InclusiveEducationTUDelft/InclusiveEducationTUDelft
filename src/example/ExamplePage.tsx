@@ -33,7 +33,7 @@ export function fetchTitleAndContent(markdown: string): { title: string, content
     const titleMatch = markdown.match(/<h1>(.*?)<\/h1>/);
     const contentMatch = markdown.match(/<p>(.*?)<\/p>/);
     return {
-        title: titleMatch ? titleMatch[1].toUpperCase() : "Error",
+        title: titleMatch ? titleMatch[1] : "Error",
         content: contentMatch ? contentMatch[1] : "Error",
     };
 }

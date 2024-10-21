@@ -2,7 +2,7 @@ import Footer from "../misc/footer/Footer";
 import Header from "../misc/header/Header";
 import PageExplanation from "../misc/page-explanation/PageExplanation";
 
-const text_intro = "We have a gender gap in many STEM fields. Increasing gender diversity benefits the labor market, gender equality, and innovations. The lack of gender diversity is caused by, among others, low sense of beloning, self-efficacy and stereotypes. Although it is a complex problem, we can still do several things in our education to attract and retain a diverse group of people. Below we will continue discussing the problem and possible solutions.";
+const text_intro = "We have a gender gap in many STEM fields. Increasing gender diversity benefits the labor market, gender equality, and innovations. The lack of gender diversity is caused by, among others, a low sense of belonging, self-efficacy and stereotypes. Although it is a complex problem, we can still do several things in our education to attract and retain a diverse group of people. Below we will continue discussing the problem and possible solutions.";
 // const text_first = "Before diving into the topic, let's discuss the concept of gender."
 // const text_second = "Here we will explain the importance of the problem in more detail"
 // const examples = "To discuss, car door / dummy / apple health / chatGPT"

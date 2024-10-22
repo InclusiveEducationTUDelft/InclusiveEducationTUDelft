@@ -1,4 +1,4 @@
-# Encourage your students to build inclusive software
+# Developing inclusive software
 
 A tool to help your students to develop more inclusive software.
 

@@ -16,6 +16,34 @@ function Gender() {
         <section>
             <PageExplanation title={"Gender"} innerHtml={text_intro} image={"gender-hero.png"} />
         </section>
+        
+        <section
+            style={{
+                width: "80%",
+                marginLeft: "auto",
+                marginRight: "auto",
+            }}>
+            <h2>Concept of Gender</h2>
+            <div>
+            When talking about gender, we refer to someones gender identity. Sam Killermann designed the <a href="https://www.itspronouncedmetrosexual.com/2018/10/the-genderbread-person-v4/">genderbread person</a> to explain the concept of gender.
+            
+            </div>
+            <img src="https://www.itspronouncedmetrosexual.com/wp-content/uploads/2018/10/Genderbread-Person-v4-1200.png" alt="genderbread"></img>
+        </section>
+
+        <section
+            style={{
+                width: "80%",
+                marginLeft: "auto",
+                marginRight: "auto",
+            }}>
+            <h2>Why is it import to increase gender diversity in STEM fields?</h2>
+            <div>
+            We need more people to fill the increasing number of vacancies. We want people to participate in fields with good career opportunities, benefiting gender equality. 
+            Moreover, gender diversity benefits productivity, innovations and reduces the risk of biased products and innovations.
+            </div>
+        </section>
+
         <Footer />
     </>
 }

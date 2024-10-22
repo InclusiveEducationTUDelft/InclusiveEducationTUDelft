@@ -2,7 +2,6 @@
 It is important to include female role models in your lectures, as often there are mainly male role models shown. Inspire your aerospace students by including female pioneers in aerospace. 
 
 Some examples of whom you can include:
-General examples
 * Jacqueline Cochran: She was an aviator and test pilot, being the first woman to break the sound barrier. 
 * Bessie Coleman: She made history as the first African American woman to earn a pilot's license in 1921. 
 * Eileen Collins: She is an astronaut, and the first woman to pilot a Space Shuttle. 

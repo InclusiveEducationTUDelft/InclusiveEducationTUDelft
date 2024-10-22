@@ -31,7 +31,7 @@ const InclusiveTips: React.FC = () => {
 
   return (
     <section className={styles.inclusiveTips} id="tips-section">
-      <h2 className={styles.sectionTitle}>How you can make your education more inclusive</h2>
+      <h2 className={styles.sectionTitle}>How You Can Make Your Education More Inclusive</h2>
       {isLoading ? (
         <p>Loading...</p>
       ) : (

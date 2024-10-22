@@ -1,41 +1,10 @@
 import React from 'react';
+import useNavigator from '../useNavigator';
 import styles from './Header.module.css';
-import { useNavigate } from 'react-router-dom';
-
 
 const Header: React.FC = () => {
-  const navigate = useNavigate();
-
-  function sleep(ms: number) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
-
-  async function scrollTo(id: string) {
-    let element = document.getElementById(id);
-
-    if (!element) {
-      navigate(window.location.hostname === 'localhost' ? '/' : '/');
-    }
-
-    async function fetchElement(id: string, retries = 5, delay = 100) {
-      for (let i = 0; i < retries; i++) {
-        const element = document.getElementById(id);
-        if (element) return element;
-        await sleep(delay);
-      }
-      return null;
-    }
-
-    element = await fetchElement(id);
-    if (!element) return;
-
-    window.scroll({
-      behavior: 'smooth',
-      left: 0,
-      top: element.offsetTop - 40,
-    });
-  }
-
+  const { scrollTo } = useNavigator();
+  
   return (
     <header className={styles.header}>
       <a

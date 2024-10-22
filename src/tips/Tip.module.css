@@ -2,7 +2,7 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 23%;
 }
 
 @media screen and (max-width: 991px) {
@@ -18,7 +18,7 @@
     padding-right: 10px;
     padding-bottom: 15px;
 
-    height: 250px;
+    height: 280px;
 
     display: flex;
     flex-direction: column;

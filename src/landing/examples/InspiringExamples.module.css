@@ -21,17 +21,6 @@
     padding-bottom: 1rem;
 }
 
-.exploreMoreBtn {
-    background-color: #ffc501;
-    border: none;
-    border-radius: 218px;
-    padding: 1rem 1.5rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-    cursor: pointer;
-    display: block;
-}
-
 @media (max-width: 991px) {
     .inspiringExamples {
         padding: 3rem 1rem;

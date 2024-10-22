@@ -2,13 +2,19 @@ import Footer from "../misc/footer/Footer";
 import Header from "../misc/header/Header";
 import PageExplanation from "../misc/page-explanation/PageExplanation";
 
-const text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publish";
-
+const text_intro = "We have a gender gap in many STEM fields. Increasing gender diversity benefits the labor market, gender equality, and innovations. The lack of gender diversity is caused by, among others, a low sense of belonging, self-efficacy and stereotypes. Although it is a complex problem, we can still do several things in our education to attract and retain a diverse group of people. Below we will continue discussing the problem and possible solutions.";
+// const text_first = "Before diving into the topic, let's discuss the concept of gender."
+// const text_second = "Here we will explain the importance of the problem in more detail"
+// const examples = "To discuss, car door / dummy / apple health / chatGPT"
+// const text_third = "Here we will explain the factors influencing the gender gap in STEM in more detail."
+// // gender stereotypes, stereotypes about STEM fields, self-efficacy, mindset, interest development
+// const text_fourth = "Here we will discuss some possible solutions, specific to the gender problem. Maybe linking to examples as well?"
+// // bias, role models, inclusive education
 function Gender() {
     return <>
         <Header />
         <section>
-            <PageExplanation title={"Gender"} innerHtml={text} image={"gender-hero.png"} />
+            <PageExplanation title={"Gender"} innerHtml={text_intro} image={"gender-hero.png"} />
         </section>
         <Footer />
     </>

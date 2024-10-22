@@ -1,84 +1,90 @@
 .footer {
-    background-color: #fff;
-    padding: 4rem 2rem 2rem;
+  background-color: #fff;
+  padding: 4rem 2rem 2rem;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.footerAbout {
+  width: 40%;
+}
+
+.footerTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footerDescription {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footerNav,
+.footerContact {
+  width: 25%;
+}
+
+.navTitle,
+.contactTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navList li {
+  margin-bottom: 0.5rem;
+}
+
+.navList a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navList a:hover {
+  color: #634c00;
+}
+
+.contactEmail,
+.contactLocation {
+  margin-bottom: 0.5rem;
+}
+
+.footerBottom {
+  border-top: 1px solid #b7b7b7;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #606060;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    padding: 3rem 1rem 1rem;
   }
-  
+
   .footerContent {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+    flex-direction: column;
   }
-  
-  .footerAbout {
-    width: 40%;
-  }
-  
-  .footerTitle {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-  }
-  
-  .footerDescription {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  
+
+  .footerAbout,
   .footerNav,
   .footerContact {
-    width: 25%;
+    width: 100%;
+    margin-bottom: 2rem;
   }
-  
-  .navTitle,
-  .contactTitle {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-  }
-  
-  .navList {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .navList li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .navList a {
-    color: #000;
-    text-decoration: none;
-  }
-  
-  .contactEmail,
-  .contactLocation {
-    margin-bottom: 0.5rem;
-  }
-  
-  .footerBottom {
-    border-top: 1px solid #b7b7b7;
-    padding-top: 1rem;
-    text-align: center;
-  }
-  
-  .copyright {
-    font-size: 1rem;
-    color: #606060;
-  }
-  
-  @media (max-width: 991px) {
-    .footer {
-      padding: 3rem 1rem 1rem;
-    }
-  
-    .footerContent {
-      flex-direction: column;
-    }
-  
-    .footerAbout,
-    .footerNav,
-    .footerContact {
-      width: 100%;
-      margin-bottom: 2rem;
-    }
-  }
+}

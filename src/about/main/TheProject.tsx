@@ -11,11 +11,10 @@ const TheProject: React.FC = () => (
             {" "}
             The{" "}
             <span style={{ fontWeight: 600 }}>
-              "Towards Open Inclusive STEM Education"
+              Towards Open Inclusive STEM Education
             </span>{" "}
             project aims to make science, technology, engineering, and
-            mathematics
-            <span style={{ fontWeight: 700 }}>(STEM)</span> education more
+            mathematics (STEM) education more
             inclusive and accessible to all. We recognize that fostering
             diversity and inclusion in education is essential to empowering
             future generations of innovators and problem-solvers.
@@ -31,7 +30,7 @@ const TheProject: React.FC = () => (
                     fontStyle: "italic",
                   }}
                 >
-                  Creating Open-Source Educational Resources:
+                  Creating Open-Source Educational Resources.
                 </span>{" "}
                 We develop and disseminate materials that explain what inclusive
                 STEM education is, why it is crucial, and how it can be
@@ -46,7 +45,7 @@ const TheProject: React.FC = () => (
                     fontStyle: "italic",
                   }}
                 >
-                  Documenting and Sharing Best Practices:
+                  Documenting and Sharing Best Practices.
                 </span>{" "}
                 We identify and document successful examples of open and
                 inclusive STEM education. These practices, drawn from diverse
@@ -61,7 +60,7 @@ const TheProject: React.FC = () => (
                     fontStyle: "italic",
                   }}
                 >
-                  Educating and Training Teaching Staff:
+                  Educating and Training Teaching Staff.
                 </span>{" "}
                 We provide training sessions for educators on selecting and
                 using open inclusive educational resources. These sessions also
@@ -71,11 +70,11 @@ const TheProject: React.FC = () => (
               </li>
             </ol>
             <br />
-            This project is part of the{" "}
+            This project is funded by the{" "} 
             <span style={{ fontWeight: 600 }}>
-              TU Delft Open Science programme,
+              <a href="https://www.tudelft.nl/en/open-science/about" target="_blank">TU Delft Open Science programme</a>
             </span>{" "}
-            which places a strong emphasis on Open Education as a key pillar.
+            , which places a strong emphasis on Open Education as a key pillar.
             Open Education at TU Delft integrates educational innovations such
             as digital technologies, blended learning, and increased student
             autonomy with the core values of diversity and inclusion.

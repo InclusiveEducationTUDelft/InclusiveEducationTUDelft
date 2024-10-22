@@ -23,12 +23,21 @@ export async function fetchAndProcessMarkdown(file_path: string): Promise<string
         }
         const markdown = await response.text();
         const html = await marked(markdown);
-        return html;
+
+        // Decode HTML entities such as &#39; back to their respective characters
+        const decodedHtml = decodeHTMLEntities(html);
+        return decodedHtml;
     } catch (err) {
         console.error(err);
         return "<h1>ERR</h1><p>Error loading content</p>";
     }
 };
+
+function decodeHTMLEntities(text: string): string {
+    const element = document.createElement('textarea');
+    element.innerHTML = text;
+    return element.value;
+}
 
 /**
  * Fetches the title (first h1) and content (first paragraph) from a markdown string
@@ -41,7 +50,7 @@ export function fetchTitleAndContent(markdown: string): { title: string, content
     const hasAdditionalContent = markdown.length > (titleMatch?.index ?? 0) + (titleMatch?.[0]?.length ?? 0) + (contentMatch?.index ?? 0) + (contentMatch?.[0]?.length ?? 0);
 
     return {
-        title: titleMatch ? titleMatch[1].toUpperCase() : "Error",
+        title: titleMatch ? titleMatch[1] : "Error",
         content: contentMatch ? contentMatch[1] : "Error",
         tipType: redirectMatch && contentMatch?.length == 2 ? TipType.REDIRECT : hasAdditionalContent ? TipType.PAGE : TipType.SINGLE,
         redirect: redirectMatch ? redirectMatch[1] : ""

@@ -16,9 +16,8 @@
 
 .tipContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 1.25rem;
-  width: 90%;
 }
 
 @media (max-width: 991px) {

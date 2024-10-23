@@ -11,7 +11,7 @@ on:
 
 jobs:
   deploy:
-    if: github.event.pull_request.merged == true || github.event_name == 'push' 
+    if: github.event.pull_request.merged == true || github.event_name == 'push'
     runs-on: ubuntu-latest
 
     steps:
@@ -25,7 +25,17 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        
+
+      - name: Validate JSON files in public/data folder
+        run: |
+          npm install -g jsonlint
+          JSON_FILES=$(find public/data -name '*.json')
+          if [ -n "$JSON_FILES" ]; then
+            jsonlint $JSON_FILES -q
+          else
+            echo "No JSON files found in public/data folder."
+          fi
+
       - name: Run deploy
         if: success()
         run: |
@@ -34,7 +44,7 @@ jobs:
           git remote set-url origin https://${github_token}@github.com/${repository}
           npm run deploy
         env:
-          user_name: 'Alex Bot'
-          user_email: 'gargant0373@gmail.com'
+          user_name: 'Inclusive Education'
+          user_email: 'inclusiveeducation@tudelft.nl'
           github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
           repository: ${{ github.repository }}

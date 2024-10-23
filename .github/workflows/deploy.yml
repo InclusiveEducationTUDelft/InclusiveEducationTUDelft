@@ -1,4 +1,4 @@
-name: Deploy on Merge to Main
+name: CI CD
 
 on:
   push:
@@ -31,11 +31,16 @@ jobs:
             echo "No JSON files found in public/data folder."
           fi
 
-      - name: Set up Git config
-        run: |
-          git config --global user.email "inclusiveeducation@tudelft.nl"
-          git config --global user.name "Inclusive Education"
-
       - name: Run deploy
         if: success()
-        run: npm run deploy
+        run: 
+          git config --global user.email "inclusiveeducation@tudelft.nl"
+          git config --global user.name "Inclusive Education"
+          git remote set-url origin https://${github_token}@github.com/${repository}
+          npm run deploy
+        env:
+          user_name: 'Inclusive Education Bot'
+          user_email: 'inclusiveeducation@tudelft.nl'
+          github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+          repository: ${{ github.repository }}
+

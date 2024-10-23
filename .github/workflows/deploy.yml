@@ -20,7 +20,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+      - name: List public/data directory
+        run: ls -R public/data
+    
       - name: Validate JSON files in public/data folder
         run: |
           npm install -g jsonlint

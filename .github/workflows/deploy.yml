@@ -31,6 +31,11 @@ jobs:
             echo "No JSON files found in public/data folder."
           fi
 
+      - name: Set up Git config
+        run: |
+          git config --global user.email "inclusiveeducation@tudelft.nl"
+          git config --global user.name "Inclusive Education"
+
       - name: Run deploy
         if: success()
         run: npm run deploy

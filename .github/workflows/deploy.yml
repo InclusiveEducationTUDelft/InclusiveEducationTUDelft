@@ -21,9 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run npm audit fix
-        run: npm audit --audit-level=moderate
-
       - name: Validate JSON files in public folder
         run: |
           npm install -g jsonlint

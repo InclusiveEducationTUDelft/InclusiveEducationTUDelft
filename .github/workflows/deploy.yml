@@ -20,16 +20,15 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-      - name: List public/data directory
-        run: ls -R public/data
-    
+
       - name: Validate JSON files in public/data folder
         run: |
           npm install -g jsonlint
-          if [ "$(find public/data -name '*.json')" ]; then
-            jsonlint "./public/data/**/*.json" -q
+          JSON_FILES=$(find public/data -name '*.json')
+          if [ -n "$JSON_FILES" ]; then
+            jsonlint $JSON_FILES -q
           else
-            echo "No JSON files found in the public/data folder."
+            echo "No JSON files found in public/data folder."
           fi
 
       - name: Run deploy

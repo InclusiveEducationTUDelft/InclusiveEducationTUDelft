@@ -25,7 +25,7 @@ jobs:
         run: |
           npm install -g jsonlint
           if [ "$(find public/data -name '*.json')" ]; then
-            jsonlint "public/data/**/*.json" -q
+            jsonlint "./public/data/**/*.json" -q
           else
             echo "No JSON files found in the public/data folder."
           fi

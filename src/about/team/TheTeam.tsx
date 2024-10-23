@@ -125,7 +125,7 @@ const teamMembers: Person[] = [
 
     pronouns: "She/Her",
 
-    bio: "Sejal Budholiya is a Strategic Product Design student at TU Delft. As a designer, she wants to make design for the invsible, visible and aims to craft impact focused strategies to transcend boundaries in society",
+    bio: "Sejal Budholiya is a Strategic Product Design student at TU Delft. As a designer, she wants to make design for the invisible, visible and aims to craft impact focused strategies to transcend boundaries in society",
 
     imgSrc: "/team/Sejal.png",
 

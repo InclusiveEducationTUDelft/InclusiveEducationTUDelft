@@ -5,9 +5,9 @@ import Tip from '../../tips/Tip';
 import InclusiveButton from '../../misc/inclusive-button/InclusiveButton';
 
 const tipsList = [
+  "workshop",
   "pronouns",
-  "people-things",
-  "gendered-names-representation"
+  "fix-the-system"
 ];
 
 const InclusiveTips: React.FC = () => {

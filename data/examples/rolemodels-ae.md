@@ -7,6 +7,7 @@ Some examples of whom you can include:
 * Eileen Collins: She is an astronaut, and the first woman to pilot a Space Shuttle. 
 * Amelia Earhart: She was a record-setting aviator. She was the first woman to fly solo across the Atlantic Ocean and the second person to do so. 
 * Valentina Tereshkova: She became the first woman to fly in space aboard Vostok 6 during her solo mission. 
+
 Dutch examples:
 * Elanor Boekholt-O'Sullivan: She was selected as the Topwoman of the Year 2023 in the Netherlands and is a pioneering leader in the Dutch Air Force. She has driven significant cultural changes within the military, ensuring all personnel feel valued and included. 
 * Denise Eikelenboom: She was the first female helicopter pilot in the Netherlands Royal Navy at age 20 and earned a Bronze Medal of KNRM for a challenging Search and Rescue mission. Currently, she serves as Manager Flight Operations at the Netherlands Aerospace Centre (NLR) and is Chair of the Royal Netherlands Aeronautical Association (KNVvL). 

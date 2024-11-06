@@ -1,0 +1,9 @@
+# Beyond Gender Binary in Class
+Respecting and understanding gender identity and expression in class can help students feel more welcome.
+
+Students experience anxiety, stress or isolation when their pronouns or identities are not respected in the classroom. An editorial for which LGTBQ+ students were interviewed showed that these students, many of whom identified as gender fluid, genderqueer, gender non-conforming, transgender, and/or non-binary, experience a great amount of anxiety and frustration. Several students expressed fear of educators and staff misgendering them or committing other microaggressions. Gender identity refers to an individual's internal understanding of their own gender, while gender expression is how they outwardly show their gender through aspects like clothing and behaviour. A person's way of expressing gender doesn't always align directly with their gender identity and students' gender identities are personal and can be fluid. 
+
+How to avoid the above situations? Ask students their name and pronoun rather than making assumptions, as one should avoid using gendered pronouns for individuals who have not specifically shared their pronouns with you. After receiving the student's preferred pronouns, you should respect their privacy and only share their gender identity after receiving their consent. Offer your name and pronoun too when introducing yourself. You will model the importance of not making assumptions about pronouns. Besides this, you could substitute gender binary language for more inclusive language such as “everybody,” “people” or “this person”.  
+
+
+Are you interested in reading more about teaching beyond the gender binary in class? We suggest reading the [full guide by Harbin](https://cft.vanderbilt.edu/guides-sub-pages/teaching-beyond-the-gender-binary-in-the-university-classroom/). 

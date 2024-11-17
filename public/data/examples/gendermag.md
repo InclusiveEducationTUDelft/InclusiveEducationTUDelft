@@ -1,7 +1,9 @@
 # Developing inclusive software
 
-A tool to help your students to develop more inclusive software.
+A valuable tool for fostering inclusivity in software design is GenderMag. Using GenderMag in education helps bridge the gender gap in technology usage, thereby enhancing inclusivity and effectiveness in software design.
 
-## Example
+Software sometimes fails to serve all its users equally. Research indicates that many software designs implicitly favor a statistical "male" user type, leaving women and other underrepresented groups to encounter more usability barriers. GenderMag addresses this issue by identifying and mitigating gender biases in user interfaces. It employs personas based on five cognitive facets (motivations, information processing styles, computer self-efficacy, attitudes toward risk, and learning styles) to uncover usability issues that disproportionately affect women.
 
-An example will follow. See [GenderMag](https://gendermag.org/) 
+GenderMag not only improves software usability but also fosters a more inclusive environment for students learning to design technology. GenderMag, according to research, makes students feel included and more interested in their computer science major when they learn and discuss GenderMag concepts. The method operates through a cognitive walkthrough using the personas having statistical averages like "Abi" and "Tim", which highlight different user perspectives. Analysts walk through software from these personas’ viewpoints, uncovering design biases that may otherwise go unnoticed. This process leads to actionable changes, making the software more accessible to a diverse user base.
+
+ Are you interested in using the GenderMag Method or do you want to read more about research proving GenderMag's effectiveness? Visit the website of [GenderMag](https://gendermag.org/educators.php) or read [this article](https://dl.acm.org/doi/pdf/10.1145/3597503.3639097). 

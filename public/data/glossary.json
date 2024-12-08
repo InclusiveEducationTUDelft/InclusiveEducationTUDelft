@@ -1,50 +1,74 @@
 [
     {
-        "term": "A Term 1",
-        "definition": "A comprehensive explanation about the first term that starts with the letter A, involving various aspects and technical details of the subject matter."
+        "term": "Autism",
+        "definition": "A neurodevelopmental condition of variable severity with lifelong effects that can be recognized from early childhood, chiefly characterized by difficulties with social interaction and communication and by restricted or repetitive patterns of thought and behaviour."
     },
     {
-        "term": "A Term 2",
-        "definition": "A second definition for a different term that begins with A, exploring the broader context in which this term is often used, along with examples from practical applications."
+        "term": "ADD",
+        "definition": "Attention Deficit Disorder"
     },
     {
-        "term": "B Term 1",
-        "definition": "A description of the first term starting with B, delving into its origin, its impact on modern practices, and its relevance to current industry standards."
+        "term": "Bias",
+        "definition": "Inclination or prejudice for or against one person or group, especially in a way considered to be unfair."
     },
     {
-        "term": "B Term 2",
-        "definition": "A detailed look at another term beginning with B, covering its historical background and how it has evolved over time to suit modern needs."
+        "term": "Colour blind",
+        "definition": "Unable to distinguish certain colours, or (rarely in humans) any colours at all."
     },
     {
-        "term": "B Term 3",
-        "definition": "An extended explanation of a third term starting with B, including how it intersects with other concepts, and the current research being conducted on this topic."
+        "term": "Diversity",
+        "definition": "Characteristics of people such as gender, sexual orientation, social and ethnic backgrounds"
     },
     {
-        "term": "C Term 1",
-        "definition": "The first term under the letter C, discussing its technical foundations, its significance in the field, and notable case studies that highlight its use."
+        "term": "D&I",
+        "definition": "Abbreviation for diversity and inclusion. In a nutshell, it's about empowering people by respecting and appreciating what makes them different, in terms of age, gender, ethnicity, religion, disability, sexual orientation, education, and national origin."
     },
     {
-        "term": "C Term 2",
-        "definition": "A second term with C, offering an analysis of its theoretical framework, common applications, and how it has been interpreted in different regions of the world."
+        "term": "DEI",
+        "definition": "Abbreviation for Diversity, Equity and Inclusion. Diversity, equity and inclusion is a term used to describe policies and programs that promote the representation and participation of different groups of individuals. DEI encompasses people of different ages, races, ethnicities, abilities, disabilities, genders, religions, cultures and sexual orientations."
     },
     {
-        "term": "C Term 3",
-        "definition": "The third term for C, providing a thorough explanation on its role in specific industry practices, with references to its legislative and regulatory considerations."
+        "term": "Discrimination",
+        "definition": "The unjust or prejudicial treatment of different categories of people, especially on the grounds of ethnicity, age, sex, or disability."
     },
     {
-        "term": "D Term 1",
-        "definition": "An in-depth description of the first term beginning with D, focusing on its technical usage, implications for large-scale projects, and its evolution through recent innovations."
+        "term":"Equity",
+        "definition": "The quality of being fair and impartial."
     },
     {
-        "term": "D Term 2",
-        "definition": "A detailed breakdown of a second D term, which explores its interdisciplinary applications, the controversies surrounding it, and potential future developments."
+        "term":"Emancipation",
+        "definition": "The fact or process of being set free from legal, social or political restrictions; liberation"
     },
     {
-        "term": "E Term 1",
-        "definition": "An elaborate account of a term starting with E, highlighting its relevance in emerging fields, its fundamental concepts, and its role in shaping future technologies."
+        "term": "Gender",
+        "definition": "Reference to social and cultural differences rather than biological ones."
     },
     {
-        "term": "E Term 2",
-        "definition": "A second term with E, encompassing its various interpretations across different domains, including scientific, economic, and cultural perspectives."
+        "term": "Inclusion",
+        "definition": "The practice or policy of providing equal access to opportunities and resources for people who might otherwise be excluded or marginalized, such as those who have physical or intellectual disabilities and members of other minority groups."
+    },
+    {
+        "term": "Inclusive Education",
+        "definition": "Inclusive learning and teaching recognises all student's entitlement to a learning experience that respects diversity, enables participation, removes barriers and anticipates and considers a variety of learning needs and preferences."
+    },
+    {
+        "term": "LGBTQIA+",
+        "definition": "Abbreviation for lesbian, gay, bisexual, transgender, intersex, queer/questioning, asexual. Many other terms (such as non-binary and pansexual) that people use to describe their experiences of their gender, sexuality and physiological sex characteristics."
+    },
+    {
+        "term": "Neurodiversity",
+        "definition": "The range of differences in individual brain function and behavioural traits, regarded as part of normal variation in the human population (used especially in the context of autistic spectrum disorders)."
+    },
+    {
+        "term": "Quota",
+        "definition": "A fixed share of something that a person or group is entitled to receive or is bound to contribute."
+    },
+    {
+        "term": "STEM",
+        "definition": "Abbreviation for Science, Technology, Engineering, Mathematics"
+    },
+    {
+        "term": "Trans",
+        "definition": "Denoting or relating to a person whose gender identity does not correspond with the sex registered for them at birth; transgender."
     }
 ]

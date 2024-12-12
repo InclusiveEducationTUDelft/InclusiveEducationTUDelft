@@ -1,0 +1,97 @@
+.factors {
+    background-color: #FFF5D3;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.factorsContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.factorsContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    padding-top: 25px;
+}
+
+.factorsTitle {
+    color: rgba(4, 56, 190, 1);
+    font: 600 50px/1 Roboto, sans-serif;
+    min-width: 40%;
+}
+
+.factorCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3%;
+    width: 90%;
+}
+
+.factorCard {
+    width: 20%;
+    min-height: 450px;
+    padding: 20px;
+    margin-bottom: 3%;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.factorCardImage {
+    width: 50%;
+}
+
+.factorCardTitle {
+    padding: 5px 0px 25px 0px;
+    font-weight: bold;
+}
+
+.factorCardContent {
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .factorsContainer {
+        flex-direction: column;
+    }
+
+    .factorsContent {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .factorsTitle {
+        font-size: 30px;
+    }
+
+    .factorCardContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .factorCard {
+        width: 80%;
+    }
+
+    .factorCardImage {
+        width: 80%;
+    }
+}

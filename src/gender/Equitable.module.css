@@ -1,5 +1,4 @@
-.factors {
-    background-color: #FFF5D3;
+.equitable {
     margin-top: 40px;
     width: 100%;
     display: flex;
@@ -7,7 +6,7 @@
     align-items: center;
 }
 
-.factorsContainer {
+.equitableContainer {
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
@@ -18,7 +17,7 @@
     width: 90%;
 }
 
-.factorsContent {
+.equitableContent {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -28,13 +27,14 @@
     padding-top: 25px;
 }
 
-.factorsTitle {
+.equitableTitle {
     color: rgba(4, 56, 190, 1);
     font: 600 50px/1 Roboto, sans-serif;
+    min-width: 40%;
     min-width: max-content;
 }
 
-.factorCardContainer {
+.equitableCardContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,58 +42,62 @@
     width: 90%;
 }
 
-.factorCard {
+.equitableCard {
     width: 25%;
     min-height: 450px;
     padding: 20px;
     margin-bottom: 3%;
-    background-color: #FFF;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equitableCardImage {
+    width: 70%;
+}
+
+.equitableCardContent {
+    background-color: #FFF5D3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
 
-.factorCardImage {
-    width: 50%;
-}
-
-.factorCardTitle {
-    padding: 5px 0px 25px 0px;
-    font-weight: bold;
-}
-
-.factorCardContent {
+    padding: 20px;
+    min-height: 60%;
+    width: 70%;
+    
     font-size: 13px;
     line-height: 1.5;
 }
 
-@media (max-width: 768px) {
-    .factorsContainer {
+@media (max-width: 890px) {
+    .equitableContainer {
         flex-direction: column;
     }
 
-    .factorsContent {
+    .equitableContent {
         flex-direction: column;
         gap: 20px;
     }
 
-    .factorsTitle {
-        font-size: 30px;
+    .equitableTitle {
         min-width: 80%;
+        font-size: 30px;
     }
 
-    .factorCardContainer {
+    .equitableCardContainer {
         flex-direction: column;
         align-items: center;
-        gap: 30px;
-        margin-bottom: 20px;
     }
 
-    .factorCard {
+    .equitableCard {
         width: 80%;
     }
 
-    .factorCardImage {
+    .equitableCardImage {
         width: 80%;
+    }
+
+    .equitableCardContent {
+        height: min-content;
     }
 }

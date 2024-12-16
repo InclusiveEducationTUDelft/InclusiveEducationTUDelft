@@ -1,6 +1,7 @@
 import Footer from "../misc/footer/Footer";
 import Header from "../misc/header/Header";
 import PageExplanation from "../misc/page-explanation/PageExplanation";
+import Equitable from "./Equitable";
 import Factors from "./Factors";
 import styles from "./Gender.module.css";
 
@@ -33,6 +34,7 @@ function Gender() {
                 </div>
             </div>
             <Factors />
+            <Equitable />
         </section>
         <Footer />
     </>

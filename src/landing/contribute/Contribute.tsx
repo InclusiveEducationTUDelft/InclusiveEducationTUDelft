@@ -22,7 +22,7 @@ const contributeOptions = [
     content: "Do you want to share resources, experiences or challenges? We are very happy with all input to collectively make our education more inclusive.",
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/4b35b79639c355af1ff8e2cf69512c2ad56d7857d26507e287edf5920c4338f6?apiKey=91547a0531724dfdbec3493d0aeb27e5&",
     buttonText: "Share Story",
-    href: "https://example.com"
+    href: "https://forms.office.com/e/P8mqNRV453"
   }
 ];
 

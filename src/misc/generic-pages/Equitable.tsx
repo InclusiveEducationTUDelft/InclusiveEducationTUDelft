@@ -1,27 +1,15 @@
 import styles from "./Equitable.module.css";
 
-const equitable_data = [
-    {
-        image: "Gender (3).png",
-        content: "Respecting and understanding gender identity and expression in class can help students feel more welcome.  "
-    },
-    {
-        image: "Gender (3).png",
-        content: "Respecting and understanding gender identity and expression in class can help students feel more welcome.  "
-    },
-    {
-        image: "Gender (3).png",
-        content: "Respecting and understanding gender identity and expression in class can help students feel more welcome.  "
-    },
-]
-
-interface EquitableCardProps {
+export interface EquitableCardProps {
     image: string;
     content: string;
 }
 
-const Equitable: React.FC = () => {
+export interface EquitableProps {
+    data: EquitableCardProps[];
+}
 
+const Equitable: React.FC<EquitableProps> = ({ data }) => {
     return (
         <section className={styles.equitable}>
             <div className={styles.equitableContainer}>
@@ -33,8 +21,8 @@ const Equitable: React.FC = () => {
                 </div>
             </div>
             <div className={styles.equitableCardContainer}>
-                {equitable_data.map((data, index) => (
-                    <EquitableCard key={index} image={"/Illustrations/" + data.image} content={data.content} />
+                {data.map((item, index) => (
+                    <EquitableCard key={index} image={"/Illustrations/" + item.image} content={item.content} />
                 ))}
             </div>
         </section>

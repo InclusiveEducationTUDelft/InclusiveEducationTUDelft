@@ -10,4 +10,4 @@ Examples on how to make computing assignments about people instead of things:
 * Hotel booking rather than cargo ship booking
 * Customer tracker rather than electricity tracker
 
-If you are interested in reading more, read the [full paper from Christensen and Marcher](https://dl.acm.org/doi/10.1145/3446871.3469761) or the initial paper by [Lippa on the people-things spectrum](https://psycnet.apa.org/doi/10.1037/0022-3514.74.4.996). 
+If you are interested in reading more, read the [full paper from Christensen and Marcher](https://dl.acm.org/doi/10.1145/3446871.3469761) or the paper by [Lippa on the people-things spectrum](https://psycnet.apa.org/doi/10.1037/0022-3514.74.4.996). 

@@ -1,0 +1,9 @@
+# Teaching Assistants' Impact on Inclusion 
+Teaching Assistants (TAs) hold a unique position that allows them to contribute to building an inclusive engineering classroom. The responsibilities of a TA differ per course, so be aware that not all statements below apply to all TAs. In laboratory courses, students frequently have more overall contact with their TAs than with professors. TAs, as fellow students, bring relatable perspectives and can propose strategies to reduce classroom inequities and make courses more inclusive. Students perceive TAs as more interactive and relatable than regular faculty, and TAs are also likely to play a stronger role in students’ social integration than regular faculty.    
+
+Many TAs already view fostering inclusion as part of their role and most students are satisfied with their TAs’ effort in promoting an inclusive and respectful classroom environment. However, TAs often adopt reactionary strategies over a proactive strategy when addressing discriminatory and hostile situations. Novice instructors may struggle to identify conditions and relevant information that can lead to such challenges. Some TAs might be underprepared or uncertain to be effective in practising inclusion.   
+
+Explicitly developing TAs’ competencies in inclusive teaching is a promising way to make engineering classrooms more inclusive. This development can be done within the training, where the training should be relevant and practical. However, integrating these inclusive teaching aspects into the training should not compromise other essential aspects of TA development. Elements to include in training:  
+* Training that equips TAs with tools to respond effectively and that clearly communicates to assistants that taking action is part of their responsibilities in supporting the campus learning climate. 
+* Strategies that include respect and encourage proactive measures to prevent issues before they escalate.
+

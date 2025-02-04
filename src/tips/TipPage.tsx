@@ -44,18 +44,21 @@ function decodeHTMLEntities(text: string): string {
  * @param markdown the markdown string to process
  */
 export function fetchTitleAndContent(markdown: string): { title: string, content: string, tipType: TipType, redirect: string } {
-    const titleMatch = markdown.match(/<h1>(.*?)<\/h1>/);
-    const contentMatch = markdown.match(/<p>(.*?)<\/p>/);
-    const redirectMatch = markdown.match(/<a href=\"(.*?)\">/);
-    const hasAdditionalContent = markdown.length > (titleMatch?.index ?? 0) + (titleMatch?.[0]?.length ?? 0) + (contentMatch?.index ?? 0) + (contentMatch?.[0]?.length ?? 0);
+    const titleMatches = Array.from(markdown.matchAll(/<h1>(.*?)<\/h1>/g), match => match[1]);
+    const contentMatches = Array.from(markdown.matchAll(/<p>(.*?)<\/p>/g), match => match[1]);
+    const redirectMatch = markdown.match(/<a href="(.*?)"/);
+
+    const single = titleMatches.length + contentMatches.length === 2;
+    const redirect = titleMatches.length === 1 && contentMatches.length === 2;
 
     return {
-        title: titleMatch ? titleMatch[1] : "Error",
-        content: contentMatch ? contentMatch[1] : "Error",
-        tipType: redirectMatch && contentMatch?.length == 2 ? TipType.REDIRECT : hasAdditionalContent ? TipType.PAGE : TipType.SINGLE,
+        title: titleMatches[0] || "Error",
+        content: contentMatches[0] || "Error",
+        tipType: redirectMatch && redirect ? TipType.REDIRECT : single ? TipType.SINGLE : TipType.PAGE,
         redirect: redirectMatch ? redirectMatch[1] : ""
     };
 }
+
 
 function TipPage() {
     const [isLoading, setIsLoading] = useState(true);

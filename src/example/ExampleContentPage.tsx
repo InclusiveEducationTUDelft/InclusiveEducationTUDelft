@@ -3,6 +3,7 @@ import Footer from "../misc/footer/Footer";
 import Header from "../misc/header/Header";
 import { useEffect, useState } from "react";
 import { fetchAndProcessMarkdown } from "./ExamplePage";
+import styles from "./ExampleContentPage.module.css";
 
 function ExampleContentPage() {
     const [isLoading, setLoading] = useState(true);
@@ -30,15 +31,13 @@ function ExampleContentPage() {
                 {isLoading ? (
                     <p>Loading...</p>
                 ) : (
-                    <div
-                        id="example-content"
-                        style={{
-                            width: "95%",
-                            marginLeft: "auto",
-                            marginRight: "auto",
-                        }}
-                        dangerouslySetInnerHTML={{ __html: content }}
-                    />)}
+                    <div className={styles.content}>
+                        <div
+                            id="example-content"
+                            dangerouslySetInnerHTML={{ __html: content }}
+                        />
+                    </div>)
+                }
             </main>
             <Footer />
         </>

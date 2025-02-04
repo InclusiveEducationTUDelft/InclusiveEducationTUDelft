@@ -2,10 +2,13 @@
     background-color: #FFF5D3;
 
     margin-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .explanationContainer {
-    width: 85%;
+    width: 100%;
 
     margin-left: auto;
     margin-right: auto;
@@ -14,14 +17,15 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 10%;
 }
 
 .explanationContent {
     display: flex;
     flex-direction: column;
-
+    width: 40%; 
     gap: 30px;
 }
 
@@ -32,20 +36,29 @@
 
 .explanationText {
     font-size: 17px;
+    line-height: 1.5;
 }
 
 .explanationImage {
-    width: 30%;
+    width: 40%;
     height: auto;
 }
 
 @media screen and (max-width: 991px) {
+    .explanation {
+        width: 100%;
+    }
+    
     .explanationContainer {
         flex-direction: column;
         align-items: center;
         gap: 0;
     }
 
+    .explanationContent {
+        width: 80%;
+    }
+    
     .explanationImage {
         width: 80%;
         margin-top: 20px;

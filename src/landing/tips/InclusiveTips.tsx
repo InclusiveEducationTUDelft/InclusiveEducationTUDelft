@@ -5,7 +5,7 @@ import Tip from '../../tips/Tip';
 import InclusiveButton from '../../misc/inclusive-button/InclusiveButton';
 
 const tipsList = [
-  "workshop",
+  "subtitles",
   "pronouns",
   "fix-the-system"
 ];

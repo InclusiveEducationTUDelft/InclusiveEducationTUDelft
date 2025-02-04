@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import AboutPage from './about/AboutPage';
-import LandingPage from './landing/LandingPage';
-import ExamplePage from './example/ExamplePage';
 import ExampleContentPage from './example/ExampleContentPage';
-import TipPage from './tips/TipPage';
-import TipContentPage from './tips/TipContentPage';
-import Glossary from './glossary/Glossary';
+import ExamplePage from './example/ExamplePage';
 import Gender from './gender/Gender';
+import Glossary from './glossary/Glossary';
+import LandingPage from './landing/LandingPage';
 import Neurodiversity from './neurodiversity/Neurodiversity';
+import TipContentPage from './tips/TipContentPage';
+import TipPage from './tips/TipPage';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

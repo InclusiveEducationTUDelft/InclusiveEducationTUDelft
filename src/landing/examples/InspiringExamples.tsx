@@ -5,7 +5,7 @@ import InclusiveButton from '../../misc/inclusive-button/InclusiveButton';
 import styles from './InspiringExamples.module.css';
 
 const examples_list = [
-  "lena-image-processing",
+  "rolemodels-ae",
   "names-cryptography",
   "hotel-vs-cargo",
 ]

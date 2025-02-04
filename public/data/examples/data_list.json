@@ -1,4 +1,5 @@
 [
+    "people-vs-things",
     "lena-image-processing",
     "names-cryptography",
     "hotel-vs-cargo",
@@ -6,5 +7,5 @@
     "names-statistics",
     "gendermag",
     "rolemodels-ae",
-    "people-vs-things"
+    "rolemodels-cse"
 ]
